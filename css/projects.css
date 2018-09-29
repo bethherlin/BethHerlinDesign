@@ -1,0 +1,1021 @@
+body {
+  padding-top: 50px;
+  min-height: 1000px;
+  padding-bottom: 50px;
+}
+
+/* NAVBAR
+-------------------------------------------------- */
+.navbar-default {
+  background-color: #191919;
+  border:0px;
+}
+
+.navbar-default .my-brand {
+  padding: 0px;
+  background: url(../img/favconwhite.png) no-repeat center; 
+  background-size: contain;
+  height:40px;
+  width:40px;
+  margin:5px 12px 0px 5px;
+}
+
+.navbar-default .my-brand:hover{
+  padding: 0px;
+  background: url(../img/favcon_hover.png) no-repeat center;
+  background-size: contain;
+  height:40px;
+  width:40px;
+  margin:5px 12px 0px 5px;
+}
+
+.navbar-default .navbar-brand img{
+  width:50px;
+  height: auto;
+  padding:5px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  font-family: 'Economica', sans-serif;
+  text-transform: uppercase;
+  color:#ffffff;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+  font-family: 'Economica', sans-serif;
+  text-transform: uppercase;
+  color:#FACF00;
+}
+
+.navbar-default .navbar-nav>.active > a,
+.navbar-default .navbar-nav>.active > a:hover,
+.navbar-default .navbar-nav>.active > a:focus {
+  color:#191919;
+  background-color:#FACF00;
+}
+
+.dropdown-menu {
+  border: 0px;
+  font-family: 'Economica', sans-serif;
+  background-color: #191919;
+}
+
+.dropdown-menu li {
+  color: #D9D9D9;
+  font-family: 'Economica', sans-serif;
+  background-color: #191919;
+}
+
+.dropdown-menu li a {
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+/* makes drop-down menu appear on hover*/
+.dropdown-menu li:hover .sub-menu {
+  visibility: visible;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/*.dropdown-menu .active {
+  background-color: white;
+  color:#D9D9D9;
+}/*
+
+    /* Active state gets a caret at the bottom */
+    .nav.navbar-nav .active {
+      color: #FACF00;
+    }
+    .nav.navbar-nav .active:after {
+      position: absolute;
+      left: 50%;
+      width: 0;
+      height: 0;
+      margin-left: -5px;
+      vertical-align: middle;
+      content: " ";
+      border-right:  5px solid transparent;
+      border-bottom: 5px solid;
+      border-left:   5px solid transparent;
+      -moztransform: scaleY(-1);
+      -o-transform: scaleY(-1);
+      -webkit-transform: scaleY(-1);
+      -transform: scaleY(-1);
+      filter: FlipH;
+      -ms-filter:"FlipH";
+    }
+
+    @media (max-width: 479px) {
+      .nav.navbar-nav .active:after {
+        visibility: hidden;
+      }
+    }
+  
+
+/* SIDEBAR -----------------------------------------------*/
+
+#sidebar {
+  position:fixed;
+  right:4%;
+  padding:0px;
+  padding-right: 30px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1em;
+  float: right;
+  border:1px #191919;
+  z-index: 1;
+  text-shadow: 0px 1px 1px rgba(25, 25, 25, 0.2);
+}
+
+#sidebar a {
+  border:0px;
+  border-radius: 0px;
+  background-color: transparent;
+  color: white;
+}
+
+.projects #sidebar a {
+  color:#191919;
+  text-shadow: 0px 1px 1px rgba(25, 25, 25, 0.1);
+}
+
+.projects #sidebar .active {
+  color:#FACF00;
+  text-shadow: 0px 1px 1px rgba(25, 25, 25, 0.2);
+}
+
+#sidebar .active {
+  color:#FACF00;
+  background-color:transparent;
+  border:0px;
+  text-shadow: 0px 1px 1px rgba(25, 25, 25, 0.4);
+  text-transform: uppercase;
+}
+
+#sidebar a:hover {
+  background-color: transparent;
+  color:#FACF00;
+}
+
+
+@media screen and (max-width: 767px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all .25s ease-out;
+       -moz-transition: all .25s ease-out;
+            transition: all .25s ease-out;
+  }
+
+
+  .row-offcanvas-right {
+    right: 0;
+  }
+
+  .row-offcanvas-left {
+    left: 0;
+  }
+
+  .row-offcanvas-right
+  .sidebar-offcanvas {
+    right: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    left: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-right.active {
+    right: 50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left.active {
+    left: 50%; /* 6 columns */
+  }
+
+  .sidebar-offcanvas {
+    position: fixed;
+    top: 0;
+    width: 50%; /* 6 columns */
+  }
+}
+
+/*JUMBOTRON-----------------------------------------------*/
+
+.jumbotron {
+  margin-bottom: 15px;
+  padding:15px;
+  background: background: -webkit-linear-gradient(#F2F2F2, #D9D9D9); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#F2F2F2, #D9D9D9); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#F2F2F2, #D9D9D9); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#F2F2F2, #D9D9D9); /* Standard syntax */
+}
+
+.jumbotron #title h2 {
+  font-family: 'Economica', sans-serif;
+  text-transform: uppercase;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.jumbotron #title p {
+  font-family: 'Economica', sans-serif;
+  font-size: 1em;
+}
+
+.jumbotron #title {
+  padding:0;
+  padding-left: 25px;
+  padding-right:25px;
+  border-right:1px solid #191919;
+}
+
+.jumbotron .oppcontainer {
+  padding-left:0px;
+}
+
+.jumbotron #oppdescription {
+  
+  padding:25px;
+  padding-bottom: 10px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1em;
+}
+
+
+@media (max-width: 768px) {
+    .jumbotron #title,
+    .jumbotron #oppdescription {
+      padding-top: 0px;
+      padding-bottom:15px;
+      border-right:0px;
+    }
+    .jumbotron #title {
+      text-align: center;
+    }
+  }
+
+
+
+/*PROJECTS CONTENT-----------------------------------------------*/
+
+
+
+.projects .projectrow {
+  margin:0;
+}
+
+.projects .process {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+}
+
+  @media (max-width: 479px) {
+    .projects .process {
+      padding:5px;
+    }
+  }
+
+.projects img {
+  padding-top: 5px;
+  padding-right:30px;
+  padding-left: 30px;
+  padding-bottom: 25px;
+  width:100%;
+  max-width: 650px;
+}
+
+.projects .vidblock {
+  padding-bottom: 15px;
+}
+
+.projects .video-container { 
+   position: relative; /* keeps the aspect ratio */ 
+   padding-bottom: 56.25%; /* fine tunes the video positioning */ 
+   padding-top: 60px; overflow: hidden;
+}
+
+.projects .video-container iframe,
+.projects .video-container object,
+.projects .video-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+@media (min-width: 767px) {
+  .projects .video-container iframe,
+  .projects .video-container object,
+  .projects .video-container embed {
+      width: 85%;
+      height: 85%;
+  }
+}
+
+
+.projects .projdescrip {
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 0px;
+}
+
+.projects .projdescrip h2 {
+  font-family: 'Economica', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #191919;
+  text-shadow: 0px 1px 1px rgba(25, 25, 25, 0.1);
+}
+
+.projects .projdescrip p {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1em;
+  color: #191919;
+  text-shadow: 0px 1px 1px rgba(25, 25, 25, 0.05);
+}
+
+.projects .projdescrip a {
+  text-decoration: none;
+  color:gray;
+}
+    .projects .projdescrip a:hover {
+      color:#FACF00;
+    }
+
+.projects .phasetitle {
+  font-family: 'Economica', sans-serif;
+  text-transform: uppercase;
+  font-size: 2em;
+  color: #191919;
+  text-shadow: 0px 1px 1px rgba(25, 25, 25, 0.2);
+  text-align: center;
+  padding:0;
+}
+
+.projects .projcontent {
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 20px;
+}
+
+
+      @media (min-width: 480px) and (max-width: 768px) {
+        .projects .projcontent div {
+          padding-bottom: 8px;
+        }
+      }
+      @media (max-width: 479px) {
+        .projects .projcontent div {
+          padding-bottom: 8px;
+        }
+        .projects .projdescrip {
+          padding-right: 30px;
+          padding-left: 30px;
+        }
+        .projects img {
+          padding-right: 15px;
+          padding-left: 15px;
+        }
+      } 
+
+
+/*HOBBIES CONTENT-----------------------------------------------*/
+
+
+
+.photographybody,
+.cookingbody {
+  background-color: #191919;
+
+}
+
+.photography,
+.cooking {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.photography .photographyrow,
+.cooking .cookingrow {
+  margin: 0;
+}
+
+.photography .col-lg-12,
+.cooking .col-lg-12 {
+  height:610px;
+  padding: 40px;
+  min-width: 440px;
+  }
+
+    @media (min-width: 480px) and (max-width: 768px) {
+      .photography .col-lg-12,
+      .cooking .col-lg-12 {
+        height: 400px;
+      }
+      .photography h2,
+      .cooking h2 {
+        padding-left:20px !important;
+        padding-top: 240px !important;
+      }
+      .photography p,
+      .cooking p {
+        padding-left:20px !important;
+      }
+      .photography .col-lg-12.col-lg-offset-4.col-sm-offset-3,
+      .cooking .col-lg-12.col-lg-offset-4.col-sm-offset-3 {
+        height: 600px;
+      }
+      .photography .col-lg-12.col-lg-offset-4.col-sm-offset-3 h2,
+      .cooking .col-lg-12.col-lg-offset-4.col-sm-offset-3 h2 {
+        padding-top: 435px !important;
+      }
+    }
+
+    @media (max-width: 479px) {
+      .photography .col-lg-12,
+      .cooking .col-lg-12 {
+        height: 220px;
+        min-width: 330px;
+        }
+      .photography h2,
+      .cooking h2 {
+          padding-left:5px !important;
+          padding-top: 88px !important;
+          font-size: 1.5em !important;
+        }
+      .photography p,
+      .cooking p {
+          padding-left:5px !important;
+          font-size: .8em !important;
+        }
+        .photography .col-lg-12.col-lg-offset-4.col-sm-offset-3,
+        .cooking .col-lg-12.col-lg-offset-4.col-sm-offset-3 {
+          height: 470px;
+          min-width: 330px;
+        }
+        .photography .col-lg-12.col-lg-offset-4.col-sm-offset-3 h2,
+        .cooking .col-lg-12.col-lg-offset-4.col-sm-offset-3 h2 {
+          padding-top: 330px !important;
+        }
+      }
+
+
+.photography h2,
+.cooking h2 {
+  padding-left:30px;
+  padding-top: 440px;
+  font-family: 'Economica', sans-serif;
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-shadow: 0px 1px 1px rgba(25, 25, 25, 0.3);
+}
+
+.photography p,
+.cooking p {
+  padding-left:35px;
+  font-family: 'Economica', sans-serif;
+  font-size: 1em;
+  color: #FFFFFF;
+  text-shadow: 0px 1px 1px rgba(25, 25, 25, 0.3);
+}
+
+.photography .col-lg-12.col-lg-offset-4.col-sm-offset-3 h2,
+.photography .col-lg-12.col-lg-offset-4.col-sm-offset-3 p {
+  padding-left: 30px;
+}
+
+    /* photography ------------------------------------------------*/
+
+    .photography #bobcat {
+      background: url("../img/hobbies/imgsphotography/bobcat.jpg");
+      background-size:cover;
+      background-position: center;
+    }
+    .photography #incline {
+      background: url("../img/hobbies/imgsphotography/incline.jpg");
+      background-size:cover;
+      background-position: center;
+    }
+    .photography #buds {
+      background: url("../img/hobbies/imgsphotography/buds.jpg");
+      background-size:cover;
+      background-position: center;
+    }
+    .photography #record {
+      background: url("../img/hobbies/imgsphotography/record.jpg");
+      background-size:cover;
+      background-position: center;
+    }
+    .photography #abugsview {
+      background: url("../img/hobbies/imgsphotography/abugsview.jpg");
+      background-size:cover;
+      background-position: bottom;
+    }
+    .photography #acaciasunset {
+      background: url("../img/hobbies/imgsphotography/acaciasunset.jpg");
+      background-size:cover;
+      background-position: center;
+    }
+    .photography #babybaboon {
+      background: url("../img/hobbies/imgsphotography/babybaboon.jpg");
+      background-size:cover;
+      background-position: center;
+      width: 30%;     
+    }
+    .photography #calmbeforetheride {
+      background: url("../img/hobbies/imgsphotography/calmbeforetheride.jpg");
+      background-size:cover;
+      background-position: center;
+      width: 30%;
+    }
+    .photography #cartrails {
+      background: url("../img/hobbies/imgsphotography/cartrails.jpg");
+      background-size:cover;
+      background-position: center;
+    }
+    .photography #curiousvervet {
+      background: url("../img/hobbies/imgsphotography/curiousvervet.jpg");
+      background-size:cover;
+      background-position: center;
+      width: 30%;
+    }
+    .photography #daddylonglegs {
+      background: url("../img/hobbies/imgsphotography/daddylonglegs.jpg");
+      background-size:cover;
+      background-position: center;
+    }
+    .photography #drag {
+      background: url("../img/hobbies/imgsphotography/drag.jpg");
+      background-size:cover;
+      background-position: center;
+      width: 30%;
+    }
+    .photography #enriquex2 {
+      background: url("../img/hobbies/imgsphotography/enriquex2.jpg");
+      background-size:cover;
+      background-position: center;
+    }
+    .photography #familypaddle {
+      background: url("../img/hobbies/imgsphotography/familypaddle.jpg");
+      background-size:cover;
+      background-position: bottom;
+    }
+    .photography #flowerred {
+      background: url("../img/hobbies/imgsphotography/flowerred.jpg");
+      background-size:cover;
+      background-position: center;
+    }
+    .photography #flowerred2 {
+      background: url("../img/hobbies/imgsphotography/flowerred2.jpg");
+      background-size:cover;
+      background-position: center;
+    }
+    .photography #glittersneeze {
+      background: url("../img/hobbies/imgsphotography/glittersneeze.jpg");
+      background-size:cover;
+      background-position: center;
+      width: 30%;
+    }
+    .photography #honey {
+      background: url("../img/hobbies/imgsphotography/honey.jpg");
+      background-size:cover;
+      background-position: center;
+    }
+    .photography #lilacbreastedroller {
+      background: url("../img/hobbies/imgsphotography/lilacbreastedroller.jpg");
+      background-size:cover;
+      background-position: top;
+    }
+    .photography #lionpair {
+      background: url("../img/hobbies/imgsphotography/lionpair.jpg");
+      background-size:cover;
+      background-position: bottom;
+    }
+    .photography #lizard {
+      background: url("../img/hobbies/imgsphotography/lizard.jpg");
+      background-size:cover;
+      background-position: center;
+      width: 30%;
+    }
+    .photography #lynx {
+      background: url("../img/hobbies/imgsphotography/lynx.jpg");
+      background-size:cover;
+      background-position: center;
+      width: 30%;
+    }
+    .photography #maasaigirl {
+      background: url("../img/hobbies/imgsphotography/maasaigirl.jpg");
+      background-size:cover;
+      background-position: center;
+      width: 30%;
+    }
+    .photography #maasaimothers {
+      background: url("../img/hobbies/imgsphotography/maasaimothers.jpg");
+      background-size:cover;
+      background-position: center;
+      width: 30%;
+    }
+    .photography #mistysunrise {
+      background: url("../img/hobbies/imgsphotography/mistysunrise.jpg");
+      background-size:cover;
+      background-position: center;
+    }
+    .photography #pedals {
+      background: url("../img/hobbies/imgsphotography/pedals.jpg");
+      background-size:cover;
+      background-position: center;
+      width: 30%;
+    }
+    .photography #peekingwolf {
+      background: url("../img/hobbies/imgsphotography/peekingwolf.jpg");
+      background-size:cover;
+      background-position: center;
+      width: 30%;
+    }
+    .photography #pileofpigs {
+      background: url("../img/hobbies/imgsphotography/pileofpigs.jpg");
+      background-size:cover;
+      background-position: center;
+    }
+    .photography #porcupinefriend {
+      background: url("../img/hobbies/imgsphotography/porcupinefriend.jpg");
+      background-size:cover;
+      background-position: center;
+    }
+    .photography #protectingmommy {
+      background: url("../img/hobbies/imgsphotography/protectingmommy.jpg");
+      background-size:cover;
+      background-position: center;
+    }
+    .photography #redbuds {
+      background: url("../img/hobbies/imgsphotography/redbuds.jpg");
+      background-size:cover;
+      background-position: center;
+    }
+    .photography #theotherphotographer {
+      background: url("../img/hobbies/imgsphotography/theotherphotographer.jpg");
+      background-size:cover;
+      background-position: center;
+      width: 30%;
+    }
+      .photography #bobcat {
+      background: url("../img/hobbies/imgsphotography/bobcat.jpg");
+      background-size:cover;
+      background-position: center;
+    }
+    .photography #threeinarow {
+      background: url("../img/hobbies/imgsphotography/threeinarow.jpg");
+      background-size:cover;
+      background-position: bottom;
+    }
+    .photography #womancarryingbananas {
+      background: url("../img/hobbies/imgsphotography/womancarryingbananas.jpg");
+      background-size:cover;
+      background-position: center;
+      width: 30%;
+    }
+    .photography #zebra {
+      background: url("../img/hobbies/imgsphotography/zebra.jpg");
+      background-size:cover;
+      background-position: center;
+    }
+      .photography #zebrahug {
+      background: url("../img/hobbies/imgsphotography/zebrahug.jpg");
+      background-size:cover;
+      background-position: bottom;
+      width: 30%;
+    }
+
+
+    /* furniture & drawings ------------------------------------------------*/
+
+
+.furniturebody,
+.drawingsbody {
+  background-color: #191919;
+  padding-bottom: 100px;
+}
+
+.furniture .furnrow,
+.drawings .drawrow {
+  margin:0;
+}
+
+  .furniture img,
+  .drawings img {
+  padding-top: 5px;
+  padding-right:30px;
+  padding-left: 30px;
+  padding-bottom: 25px;
+  width:100%;
+  max-width: 650px;
+}
+
+  .furniture .portrait,
+  .drawings .portrait {
+    max-width: 400px;
+  }
+
+.furniture .furndescription,
+.drawings .drawdescription {
+  padding-top: 40px;
+}
+
+.furniture h2,
+.drawings h2 {
+  padding-left:30px;
+ 
+  font-family: 'Economica', sans-serif;
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-shadow: 0px 1px 1px rgba(25, 25, 25, 0.3);
+}
+
+.furniture p,
+.drawings p {
+  padding-left:35px;
+  font-family: 'Economica', sans-serif;
+  font-size: 1em;
+  color: #FFFFFF;
+  text-shadow: 0px 1px 1px rgba(25, 25, 25, 0.3);
+}
+
+
+    /* cooking ------------------------------------------------*/
+
+    .cooking #friedbananas {
+      background: url("../img/hobbies/imgscooking/friedbananas.jpg");
+      background-size:cover;
+      background-position: center;
+    }
+    .cooking #whitechili {
+      background: url("../img/hobbies/imgscooking/whitechili.jpg");
+      background-size:cover;
+      background-position: center;
+    }
+    .cooking #potroast {
+      background: url("../img/hobbies/imgscooking/potroast.jpg");
+      background-size:cover;
+      background-position: top;
+    }
+    .cooking #stuffedsquash {
+      background: url("../img/hobbies/imgscooking/stuffedsquash.jpg");
+      background-size:cover;
+      background-position: bottom;
+      width: 30%;
+    }
+    .cooking #beetsalad {
+      background: url("../img/hobbies/imgscooking/beetsalad.jpg");
+      background-size:cover;
+      background-position: top;
+    }
+    .cooking #fathersday {
+      background: url("../img/hobbies/imgscooking/fathersday.jpg");
+      background-size:cover;
+      background-position: top;
+    }
+    .cooking #baconbark {
+      background: url("../img/hobbies/imgscooking/baconbark.jpg");
+      background-size:cover;
+      background-position: top;
+    }
+    .cooking #cauliflowersteak {
+      background: url("../img/hobbies/imgscooking/cauliflowersteak.jpg");
+      background-size:cover;
+      background-position: center;
+    }
+    .cooking #chickentacosalad {
+      background: url("../img/hobbies/imgscooking/chickentacosalad.jpg");
+      background-size:cover;
+      background-position: center;
+    }
+    .cooking #gradcupcakes {
+      background: url("../img/hobbies/imgscooking/gradcupcakes.jpg");
+      background-size:cover;
+      background-position: center;
+    }
+    .cooking #grapefruitgermain {
+      background: url("../img/hobbies/imgscooking/grapefruitgermain.jpg");
+      background-size:cover;
+      background-position: bottom;
+      width: 30%;
+    }
+    .cooking #sweetpotatochili {
+      background: url("../img/hobbies/imgscooking/sweetpotatochili.jpg");
+      background-size:cover;
+      background-position: bottom;
+    }
+    .cooking #veggieswirl {
+      background: url("../img/hobbies/imgscooking/veggieswirl.jpg");
+      background-size:cover;
+      background-position: center;
+    }
+    .cooking #porktacos {
+      background: url("../img/hobbies/imgscooking/porktacos.jpg");
+      background-size:cover;
+      background-position: center;
+    }
+
+
+/* FOOTER ------------------------------------------------*/
+
+#footer {
+  background-color:#191919;
+  height:50px;
+  min-width:100%;
+  position:fixed;
+  text-align: center;
+  clear:both;
+  z-index: 5;
+  bottom: 0;
+}
+
+#footer p {
+  font-family: 'Economica', sans-serif;
+  text-transform: uppercase;
+  font-size:1em;
+  color:#FFFFFF;
+  position:relative;
+  padding-top:15px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+#footer p:hover {
+  color:#FACF00;
+}
+
+
+/* CONTACT POP-UP ---------------------------------------*/
+
+.black_overlay{
+        display: none;
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        z-index:1001;
+        -moz-opacity: 0.8;
+        opacity:.50;
+        filter: alpha(opacity=80);
+    }
+    .white_content {
+        display: none;
+        position: fixed;
+        top: 25%;
+        left: 25%;
+        width: 50%;
+        max-width: 450px;
+        min-width: 190px;
+        height: 300px; 
+        background-color: background: -webkit-linear-gradient(#f2f2f2, white); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(#f2f2f2, white); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(#f2f2f2, white); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(#f2f2f2, white); /* Standard syntax */;
+        border-radius: 5px;
+        box-shadow: 0px 2px 2px rgba(25, 25, 25, 0.8);
+        z-index:1002;
+        overflow: auto;
+    }
+    .white_content .contactcontain {
+      margin: 0;
+    }
+    .white_content .imgwrapper {
+      padding:15px;
+      height: 300px;
+    }
+    .white_content .contactimg {
+      background: url("../img/contact/beth.jpg");
+      height:270px;
+      background-size: cover;
+    }
+    .white_content h2 {
+      padding-top: 50px;
+      font-family: Economica, sans-serif;
+      font-size: 2em;
+      text-transform: uppercase;
+      color:#191919;
+    }
+    .white_content p {
+      font-family: Nunito, sans-serif;
+      font-size: 1em;
+      color:#191919;
+    }
+    .white_content p a {
+      text-decoration: none;
+      color:gray;
+    }
+    .white_content p a:hover {
+      color:#FACF00;
+    }
+  }
+
+    @media (max-width: 768px) {
+    .white_content {
+      width:300px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .white_content h2 {
+      padding-top:0; 
+    }
+    .white_content {
+      height: 230px;
+    }
+  }
+
+/* Close 'x'----------------------*/
+
+  .close-btn {
+    background-color: #F0F0F0;
+    border-radius: 100%;
+    padding-top: 4px;
+    padding-left: 10px;
+    height: 28px;
+    width: 28px;
+    margin-top: 5px;
+    margin-right: 5px;
+    float:right;
+    -moz-box-shadow:    inset 0 0 3px #bdbdbd;
+    -webkit-box-shadow: inset 0 0 3px #bdbdbd;
+    box-shadow:         inset 0 0 3px #bdbdbd;
+    font-size: 15px;
+    font-family: Nunito, sans-serif;
+    font-weight: bold;
+    color: gray;
+    text-decoration: none;
+}
+
+.close-btn:hover,
+.close-btn:active {
+  background-color: #c9c9c9;
+}
+
+
+  
+
+/* Social buttons---------------------*/
+
+
+.socialfooter .socialicon {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.socialfooter {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.social-roll {
+  display: inline-block;
+  height: 38px;
+  width: 38px;
+  margin: 4px;
+  float: left;
+  border-radius: 50%;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  -ms-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+.social-roll:hover {
+  -webkit-transform:rotate(360deg);
+  -moz-transform:rotate(360deg);
+  -o-transform:rotate(360deg);
+  -ms-transform:rotate(360deg);
+  transform:rotate(360deg);
+}
+
+.email-hover {
+  background: url("../img/contact/email-icon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 0;
+}
+.linkedin-hover {
+  background: url("../img/contact/linkedin-icon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.behance-hover {
+  background: url("../img/contact/behance-icon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.twitter-hover {
+  background: url("../img/contact/twitter-icon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+

@@ -1,0 +1,947 @@
+body {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#inspirehtml, #inspirebody {
+	height: 100%;
+}
+
+/* NAVBAR
+-------------------------------------------------- */
+.navbar-default {
+	background-color: #191919;
+	border:0px;
+}
+
+.navbar-default .my-brand {
+	padding: 0px;
+	background: url(../img/favconwhite.png) no-repeat center; 
+	background-size: contain;
+	height:40px;
+	width:40px;
+	margin:5px 12px 0px 5px;
+}
+
+.navbar-default .my-brand:hover{
+	padding: 0px;
+	background: url(../img/favcon_hover.png) no-repeat center;
+	background-size: contain;
+	height:40px;
+	width:40px;
+	margin:5px 12px 0px 5px;
+}
+
+.navbar-default .navbar-brand img{
+	width:50px;
+	height: auto;
+	padding:5px;
+}
+
+.navbar-default .navbar-nav>li>a {
+	font-family: 'Economica', sans-serif;
+	text-transform: uppercase;
+	color:#ffffff;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+	font-family: 'Economica', sans-serif;
+	text-transform: uppercase;
+	color:#FACF00;
+}
+
+.navbar-default .navbar-nav>.active > a,
+.navbar-default .navbar-nav>.active > a:hover,
+.navbar-default .navbar-nav>.active > a:focus {
+	color:#191919;
+	background-color:#FACF00;
+}
+
+.dropdown-menu {
+	border: 0px;
+	font-family: 'Economica', sans-serif;
+	background-color: #191919;
+}
+
+.dropdown-menu li {
+	color: #D9D9D9;
+	font-family: 'Economica', sans-serif;
+	background-color: #191919;
+}
+
+.dropdown-menu li a {
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+/* makes drop-down menu appear on hover*/
+.dropdown-menu li:hover .sub-menu {
+	visibility: visible;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+
+		/* Active state gets a caret at the bottom */
+		.nav.navbar-nav .active {
+      		color: #FACF00;
+	    }
+	    .nav.navbar-nav .active:after {
+	      position: absolute;
+	      left: 50%;
+	      width: 0;
+	      height: 0;
+	      margin-left: -5px;
+	      vertical-align: middle;
+	      content: " ";
+	      border-right:  5px solid transparent;
+	      border-bottom: 5px solid;
+	      border-left:   5px solid transparent;
+	      -moztransform: scaleY(-1);
+	      -o-transform: scaleY(-1);
+	      -webkit-transform: scaleY(-1);
+	      -transform: scaleY(-1);
+	      filter: FlipH;
+	      -ms-filter:"FlipH";
+	    }
+
+	    @media (max-width: 479px) {
+      		.nav.navbar-nav .active:after {
+        		visibility: hidden;
+      		}
+    	}
+
+/* STORY
+-------------------------------------------------- */
+
+.storybody {
+	min-height: 1155px;
+}
+
+#storytitle {
+	color:#191919;
+	font-family: 'Economica', sans-serif;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.skills {
+	padding-bottom: 40px;
+	padding-right: 40px;
+	padding-left: 40px;
+	padding-top: 30px;
+}
+
+
+.skills .skillmap h2 {
+	color: white;
+	font-family: 'Economica', sans-serif;
+	font-size: 1em;
+	font-weight: lighter;
+	text-transform: uppercase;
+	text-align: center;
+	text-shadow: 0px 1px 1px rgba(25, 25, 25, 0.1);
+}
+
+.skills .skillmap p {
+	display: none;
+	color: #191919;
+	font-family: 'Nunito';
+	font-size: 1em;
+	text-align: left;
+	padding-top: 10px
+}
+
+.skills #uxdesign,
+.skills #commdesign,
+.skills #branddesign,
+.skills #graphicdesign,
+.skills #designstrategy,
+.skills #leadman,
+.skills #interactiondesign,
+.skills #webdesign,
+.skills #userresearch,
+.skills #productdesign,
+.skills #productdev {
+	background-color: #191919;
+	border:1.5px solid white;
+}
+
+/*.skills #uxdesign:hover,
+.skills #commdesign:hover,
+.skills #branddesign:hover,
+.skills #graphicdesign:hover,
+.skills #designstrategy:hover,
+.skills #leadman:hover,
+.skills #interactiondesign:hover,
+.skills #webdesign:hover,
+.skills #usabilitytesting:hover,
+.skills #productdesign:hover,
+.skills #productdev:hover {
+	background: #FACF00;
+}*/
+
+.skills #productdev:hover {
+	background: url("../img/story/productdev.png");
+	background-size: cover;
+	background-position: center;
+}
+.skills #commdesign:hover {
+	background: url("../img/story/commdesign.png");
+	background-size: cover;
+	background-position: center;
+}
+.skills #webdesign:hover {
+	background: url("../img/story/webdesign.png");
+	background-size: cover;
+	background-position: center;
+}
+.skills #leadman:hover {
+	background: url("../img/story/leadman.png");
+	background-size: cover;
+	background-position: center;
+}
+.skills #branddesign:hover {
+	background: url("../img/story/branddesign.png");
+	background-size: cover;
+	background-position: center;
+}
+.skills #designstrategy:hover {
+	background: url("../img/story/designstrategy.png");
+	background-size: cover;
+	background-position: center;
+}
+.skills #userresearch:hover {
+	background: url("../img/story/userresearch.png");
+	background-size: cover;
+	background-position: center;
+}
+.skills #graphicdesign:hover {
+	background: url("../img/story/graphicdesign.png");
+	background-size: cover;
+	background-position: center;
+}
+.skills #productdesign:hover {
+	background: url("../img/story/productdesign.png");
+	background-size: cover;
+	background-position: center;
+}
+.skills #interactiondesign:hover {
+	background: url("../img/story/interactiondesign.png");
+	background-size: cover;
+	background-position: center;
+}
+.skills #uxdesign:hover {
+	background: url("../img/story/uxdesign.png");
+	background-size: cover;
+	background-position: center;
+}
+
+.skills #uxdesign:hover h2,
+.skills #commdesign:hover h2,
+.skills #branddesign:hover h2,
+.skills #graphicdesign:hover h2,
+.skills #designstrategy:hover h2,
+.skills #leadman:hover h2,
+.skills #interactiondesign:hover h2,
+.skills #webdesign:hover h2,
+.skills #userresearch:hover h2,
+.skills #productdesign:hover h2,
+.skills #productdev:hover h2 {
+	color:white;
+}
+
+.skills #uxdesign {
+	height:300px;
+	padding-top: 122px;
+}
+
+.skills #commdesign,
+.skills #branddesign,
+.skills #graphicdesign,
+.skills #interactiondesign,
+.skills #productdesign,
+.skills #productdev {
+	height:150px;
+	padding-top: 44px;
+}
+
+.skills #designstrategy,
+.skills #leadman,
+.skills #webdesign,
+.skills #userresearch {
+	height:75px;
+	padding-top: 8px;
+}
+
+.skills #uxdesign {
+	border-top-left-radius: 9px;
+}
+.skills #interactiondesign {
+	border-bottom-left-radius: 9px;
+}
+.skills #branddesign {
+	border-top-right-radius: 9px;
+}
+.skills #productdev {
+	border-bottom-right-radius: 9px;
+}
+
+.skills .skilldescription {
+	padding-right: 25px;
+}
+.skills .skilldescription h2 {
+	padding-top: 50px;
+	color:#191919;
+	font-family: 'Economica', sans-serif;
+	font-size: 1.5em;
+	text-transform: uppercase;
+}
+.skills .skilldescription p {
+	font-family: 'Nunito', sans-serif;
+	font-size: 1em;
+	font-weight: lighter;
+	color: #191919;
+	display: none;
+}
+.skills .skilldescription #placeholder {
+	display: block;
+}
+
+@media (max-width: 768px) {
+	.skills .skillmap h2 {
+		font-size: .7em;
+		margin-top: 10px;
+	}
+	.skills #uxdesign {
+    	height:160px;
+    	padding-top: 75px;
+    }
+    .skills #commdesign,
+	.skills #branddesign,
+	.skills #graphicdesign,
+	.skills #interactiondesign,
+	.skills #productdesign,
+	.skills #productdev {
+		height:80px;
+		padding-top: 25px
+	}
+	.skills #designstrategy,
+	.skills #leadman,
+	.skills #webdesign,
+	.skills #userresearch {
+		height: 40px;
+		padding-top: 0;
+    }
+    .skills {
+    	padding-bottom:15px;
+    }
+	.skills .skilldescription {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.skills .skilldescription h2 {
+		padding-top: 0px;
+	}
+}
+@media (max-width: 479px) {
+	.skills {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	.skills .skillmap #userresearch,
+	.skills .skillmap #branddesign,
+	.skills .skillmap #leadman,
+	.skills .skillmap #designstrategy,
+	.skills .skillmap #webdesign {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+}
+
+#nextbutton {
+	text-align: center;
+	font-family: 'Economica', sans-serif;
+	font-size: 1.5em;
+	color: #191919;
+	text-decoration: none;
+}
+
+#nextbutton:hover {
+	text-shadow: 0px 1px 1px rgba(25, 25, 25, 0.2);
+	color: #FACF00;
+}
+
+.nextbuttoncontain {
+	text-align: center;
+	height: 40px;
+	padding-top: 20px;
+}
+
+
+/* METHODS BANNER DESCRIPTON
+-------------------------------------------------- */
+
+.jumbotron {
+	margin-bottom: 30px;
+	padding:20px;
+	background: background: -webkit-linear-gradient(#F2F2F2, #D9D9D9); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#F2F2F2, #D9D9D9); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(#F2F2F2, #D9D9D9); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(#F2F2F2, #D9D9D9); /* Standard syntax */
+}
+
+.jumbotron h1 {
+	font-family: 'Economica', sans-serif;
+	text-transform: uppercase;
+	font-size: 2em;
+	font-style: bolder;
+
+}
+
+.jumbotron p {
+	font-family: 'Nunito', sans-serif;
+	font-size: 1em;
+}
+
+
+/* Methods Bubbles
+-------------------------------------------------- */
+
+.marketing>h1 {
+	text-align: center;
+	font-family: 'Economica', sans-serif;
+	text-transform: uppercase;
+	font-size: 2em;
+	font-style: bolder;
+	padding-bottom: 20px;
+}
+
+.marketing .col-xs-12 {
+	padding-bottom: 50px;
+}
+
+.marketing {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+
+@media (min-width: 767px) {
+	.marketing p {
+	min-height: 90px;
+	}
+}
+
+.marketing .col-lg-4 {
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+	.marketing .col-lg-4 p {
+		text-align: left;
+		font-family: 'Nunito', sans-serif;
+		font-weight: lighter;
+  		padding-right: 8px;
+ 		padding-left: 8px;
+ 		padding-bottom: 8px;
+	}
+
+	.marketing .col-lg-4 img {
+		width:150px;
+		height:140px;
+		border-radius:0px;
+	}
+
+.marketing h2 {
+  font-family: 'Economica', sans-serif;
+  font-weight: normal;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+
+.marketing .col-lg-4 .centerbutton {
+	text-align: center;
+	display:inline;
+}
+
+.btn-default {
+	font-family: 'Nunito', sans-serif;
+	font-weight: lighter;
+	font-size: .75em;
+}
+
+.btn-default:hover {
+	background-color: #FACF00;
+}
+
+/*CREATIONS PAGE-----------------------------------------*/
+
+.creationsbody {
+	padding-bottom: 50px;
+}
+
+.creations {
+	width: 100%;
+	margin: 0px;
+	padding:0px;
+}
+
+.creations .creationsrow {
+	margin: 0;
+}
+
+.creations h2 {
+	font-family: 'Economica', sans-serif;
+  	font-weight: bolder;
+  	font-size: 2em;
+  	text-transform: uppercase; 
+  	color:white;
+  	text-shadow: 0px 1px 1px rgba(25, 25, 25, 0.4);
+}
+
+.creations p {
+	font-family: 'Nunito', sans-serif;
+	font-weight: lighter;
+	color:white;
+	text-shadow: 0px 1px 1px rgba(25, 25, 25, 0.4);
+	
+}
+
+.creations .col-lg-12 { 
+	height:130px;
+	padding-left: 42px;
+	padding-top: 9px;
+	padding-right: 40px;
+}
+
+.creations .col-lg-6 {  
+	height:130px;
+	padding-left: 42px;
+	padding-top: 9px;
+}
+
+	@media (max-width: 479px) {
+		.creations .col-lg-6,
+		.creations .col-lg-12 {
+			padding-left: 25px;
+		}
+	}
+
+.clear {
+	clear:both;
+}
+
+.creations a {
+	text-decoration: none;
+}
+
+	.creations #wagd:hover,
+	.creations #parkingmeter:hover,
+	.creations #azmo:hover,
+	.creations #fracture:hover,
+	.creations #forza:hover,
+	.creations #profiles:hover,
+	.creations #roots:hover,
+	.creations #roots:focus {
+		opacity: 1;
+	}
+
+	.creations #wagd:hover p,
+	.creations #parkingmeter:hover p,
+	.creations #azmo:hover p,
+	.creations #fracture:hover p,
+	.creations #forza:hover p,
+	.creations #profiles:hover p,
+	.creations #roots:hover p,
+	.creations #roots:focus p,
+	.creations #wagd:hover h2,
+	.creations #parkingmeter:hover h2,
+	.creations #azmo:hover h2,
+	.creations #fracture:hover h2,
+	.creations #forza:hover h2,
+	.creations #profiles:hover h2,
+	.creations #roots:hover h2,
+	.creations #roots:focus h2 {
+		color:#FACF00;
+		text-shadow: 0px 1px 1px rgba(25, 25, 25, 0.6);;
+	}
+
+.creations #wagd {
+	background: url(../img/projects/cover_wagd.jpg); 
+	background-size: contain;
+	background-size: cover;
+	background-position: right;
+	opacity:.9;
+}
+
+.creations #parkingmeter {
+	background: url(../img/projects/cover_parkingmeter1.jpg); 
+	background-size: contain;
+	background-size: cover;
+	background-position: center;
+	opacity:.9;
+}
+
+.creations #azmo {
+	background: url(../img/projects/cover_azmo.jpg);
+	background-size: contain; 
+	background-size: cover;
+	background-position: center;
+	opacity:.85;
+}
+
+.creations #fracture {
+	background: url(../img/projects/cover_fracture.jpg);
+	background-size: contain;
+	background-size: cover;
+	background-position: center;
+	opacity:.9;
+}
+
+.creations #forza {
+	background: url(../img/projects/cover_forza.jpg);
+	background-size: contain;
+	background-size: cover;
+	background-position: center;
+	opacity:.9;
+}
+
+.creations #profiles {
+	background: url(../img/projects/cover_profiles.jpg);
+	background-size: contain;
+	background-size: cover;
+	background-position: center;
+	opacity:.9;
+}
+
+.creations #roots {
+	background: url(../img/projects/cover_roots.jpg);
+	background-size: contain;
+	background-size: cover;
+	background-position: center;
+	opacity:.9;
+}
+
+
+/* HOBBIES ------------------------------------------------*/
+
+.hobbies {
+	width: 100%;
+	margin: 0px;
+	padding:0px;
+}
+
+.hobbies .hobbiesrow {
+	margin: 0;
+}
+
+.hobbies h2 {
+	font-family: 'Economica', sans-serif;
+  	font-weight: bolder;
+  	font-size: 2em;
+  	text-transform: uppercase; 
+  	color:white;
+  	text-align: center;
+  	padding-top: 110px;
+  	text-shadow: 0px 1px 1px rgba(25, 25, 25, 0.4);
+}
+
+.hobbies .col-lg-6 {  
+	height:324px;
+	padding-left: 42px;
+	padding-top: 9px;
+}
+
+    @media (max-width: 479px) {
+    	.hobbies .col-lg-6 {
+    		height:117px;
+    	}
+    	.hobbies h2 {
+    		padding-top:16px;
+    	}
+    }
+
+.clear {
+	clear:both;
+}
+
+.hobbies a {
+	text-decoration: none;
+}
+
+.hobbies #photography {
+	background: url(../img/hobbies/photography.jpg); 
+	background-size: contain;
+	background-size:cover;
+	background-position: center;
+	opacity:.85;
+}
+	.hobbies #photography:hover {
+		background: url(../img/hobbies/photography.jpg); 
+		background-size: contain;
+		background-size:cover;
+		background-position: center;
+		opacity: 1;
+	}
+	.hobbies #photography:hover h2 {
+		color:#FACF00;
+	}
+
+.hobbies #drawing {
+	background: url(../img/hobbies/drawing.jpg); 
+	background-size: contain;
+	background-size:cover;
+	background-position: center;
+	opacity: .85;
+}
+		.hobbies #drawing:hover {
+			background: url(../img/hobbies/drawing.jpg); 
+			background-size: contain;
+			background-size:cover;
+			background-position: center;
+			opacity: 1;
+		}
+		.hobbies #drawing:hover h2 {
+			color:#FACF00;
+		}
+
+.hobbies #furniture {
+	background: url(../img/hobbies/furniture.jpg); 
+	background-size: contain;
+	background-size:cover;
+	background-position: center;
+	opacity:.85; 
+}
+		.hobbies #furniture:hover {
+			background: url(../img/hobbies/furniture.jpg); 
+			background-size: contain;
+			background-size:cover;
+			background-position: center;
+			opacity:1; 
+		}
+		.hobbies #furniture:hover h2 {
+			color:#FACF00;
+		}
+
+
+.hobbies #cooking {
+	background: url(../img/hobbies/cooking.jpg); 
+	background-size: contain;
+	background-size:cover;
+	background-position: center;
+	opacity:.85;
+}
+		.hobbies #cooking:hover {
+			background: url(../img/hobbies/cooking.jpg); 
+			background-size: contain;
+			background-size:cover;
+			background-position: center;
+			opacity: 1;
+		}
+		.hobbies #cooking:hover h2 {
+			color:#FACF00;
+		}
+
+
+/* FOOTER ------------------------------------------------*/
+
+#footer {
+	background-color:#191919;
+	height:50px;
+	min-width:100%;
+	text-align: center;
+	position:fixed;
+	bottom:0;
+}
+
+#footer p {
+	font-family: 'Economica', sans-serif;
+	text-transform: uppercase;
+	font-size:1em;
+	color:#FFFFFF;
+	position:relative;
+	padding-top:15px;
+	display: inline-block;
+	text-decoration: none;
+}
+
+#footer p:hover {
+	color:#FACF00;
+}
+
+
+/* CONTACT POP-UP ---------------------------------------*/
+
+.black_overlay{
+        display: none;
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        z-index:1001;
+        -moz-opacity: 0.8;
+        opacity:.50;
+        filter: alpha(opacity=80);
+    }
+    .white_content {
+        display: none;
+        position: fixed;
+        top: 25%;
+        left: 25%;
+        width: 50%;
+        max-width: 450px;
+        min-width: 190px;
+        height: 300px; 
+        background-color: background: -webkit-linear-gradient(#f2f2f2, white); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(#f2f2f2, white); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(#f2f2f2, white); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(#f2f2f2, white); /* Standard syntax */;
+        border-radius: 5px;
+        box-shadow: 0px 2px 2px rgba(25, 25, 25, 0.8);
+        z-index:1002;
+        overflow: auto;
+    }
+    .white_content .contactcontain {
+      margin: 0;
+    }
+    .white_content .imgwrapper {
+      padding:15px;
+      height: 300px;
+    }
+    .white_content .contactimg {
+      background: url("../img/contact/beth.jpg");
+      height:270px;
+      background-size: cover;
+    }
+    .white_content h2 {
+      padding-top: 50px;
+      font-family: Economica, sans-serif;
+      font-size: 2em;
+      text-transform: uppercase;
+      color:#191919;
+    }
+    .white_content p {
+      font-family: Nunito, sans-serif;
+      font-size: 1em;
+      color:#191919;
+    }
+    .white_content p a {
+      text-decoration: none;
+      color:gray;
+    }
+    .white_content p a:hover {
+      color:#FACF00;
+    }
+  }
+
+    @media (max-width: 768px) {
+    .white_content {
+      width:300px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .white_content h2 {
+      padding-top:0; 
+    }
+    .white_content {
+      height: 230px;
+    }
+  }
+
+/* Close 'x'----------------------*/
+
+  .close-btn {
+    background-color: #F0F0F0;
+    border-radius: 100%;
+    padding-top: 4px;
+    padding-left: 10px;
+    height: 28px;
+    width: 28px;
+    margin-top: 5px;
+    margin-right: 5px;
+    float:right;
+    -moz-box-shadow:    inset 0 0 3px #bdbdbd;
+    -webkit-box-shadow: inset 0 0 3px #bdbdbd;
+    box-shadow:         inset 0 0 3px #bdbdbd;
+    font-size: 15px;
+    font-family: Nunito, sans-serif;
+    font-weight: bold;
+    color: gray;
+    text-decoration: none;
+}
+
+.close-btn:hover,
+.close-btn:active {
+  background-color: #c9c9c9;
+}
+
+
+  
+
+/* Social buttons---------------------*/
+
+
+.socialfooter .socialicon {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.socialfooter {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.social-roll {
+  display: inline-block;
+  height: 38px;
+  width: 38px;
+  margin: 4px;
+  float: left;
+  border-radius: 50%;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  -ms-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+.social-roll:hover {
+  -webkit-transform:rotate(360deg);
+  -moz-transform:rotate(360deg);
+  -o-transform:rotate(360deg);
+  -ms-transform:rotate(360deg);
+  transform:rotate(360deg);
+}
+
+.email-hover {
+  background: url("../img/contact/email-icon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 0;
+}
+.linkedin-hover {
+  background: url("../img/contact/linkedin-icon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.behance-hover {
+  background: url("../img/contact/behance-icon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.twitter-hover {
+  background: url("../img/contact/twitter-icon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
