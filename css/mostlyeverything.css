@@ -16,7 +16,7 @@ body {
 
 .navbar-default .my-brand {
 	padding: 0px;
-	background: url(../img/favconwhite.png) no-repeat center; 
+	background: url(../img/favconwhite.png) no-repeat center;
 	background-size: contain;
 	height:40px;
 	width:40px;
@@ -255,7 +255,7 @@ body {
 	color:white;
 }
 
-.skills #uxdesign {
+/* .skills #uxdesign {
 	height:300px;
 	padding-top: 122px;
 }
@@ -276,18 +276,35 @@ body {
 .skills #userresearch {
 	height:75px;
 	padding-top: 8px;
+} */
+
+.skills .toprow .full,
+.skills .secondrow .full {
+  height: 200px;
+  padding-top: 72px;
+}
+
+.skills .toprow .half,
+.skills .secondrow .half {
+  height: 100px;
+  padding-top:24px;
+}
+
+.skills .thirdrow .full {
+  height: 70px;
+  padding-top: 8px;
 }
 
 .skills #uxdesign {
 	border-top-left-radius: 9px;
 }
 .skills #interactiondesign {
-	border-bottom-left-radius: 9px;
-}
-.skills #branddesign {
 	border-top-right-radius: 9px;
 }
-.skills #productdev {
+.skills #branddesign {
+	border-bottom-left-radius: 9px;
+}
+.skills #production {
 	border-bottom-right-radius: 9px;
 }
 
@@ -295,7 +312,7 @@ body {
 	padding-right: 25px;
 }
 .skills .skilldescription h2 {
-	padding-top: 50px;
+	padding-top: 0;
 	color:#191919;
 	font-family: 'Economica', sans-serif;
 	font-size: 1.5em;
@@ -494,35 +511,48 @@ body {
 
 .creations .creationsrow {
 	margin: 0;
+  padding: 0 15px;
+}
+
+.creations h1 {
+	font-family: 'Economica', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2em;
+  padding: 30px 0;
 }
 
 .creations h2 {
 	font-family: 'Economica', sans-serif;
-  	font-weight: bolder;
-  	font-size: 2em;
-  	text-transform: uppercase; 
-  	color:white;
-  	text-shadow: 0px 1px 1px rgba(25, 25, 25, 0.4);
+  font-size: 1.5em;
+  color: black;
+  margin: 10px 0 0 0;
+  /* text-shadow: 0px 1px 1px rgba(25, 25, 25, 0.4); */
 }
 
 .creations p {
 	font-family: 'Nunito', sans-serif;
 	font-weight: lighter;
-	color:white;
-	text-shadow: 0px 1px 1px rgba(25, 25, 25, 0.4);
-	
+	color: black;
+	/* text-shadow: 0px 1px 1px rgba(25, 25, 25, 0.4); */
 }
 
-.creations .col-lg-12 { 
+/* .creations .col-lg-12 {
 	height:130px;
 	padding-left: 42px;
 	padding-top: 9px;
 	padding-right: 40px;
+  padding-bottom: 30px;
+} */
+
+.creations .col-lg-4 {
+  padding: 0 15px 30px 15px;
 }
 
-.creations .col-lg-6 {  
-	height:130px;
-	padding-left: 42px;
+
+.creations .creationsitem {
+	height:250px;
+	padding-left: 30px;
 	padding-top: 9px;
 }
 
@@ -573,7 +603,7 @@ body {
 	}
 
 .creations #wagd {
-	background: url(../img/projects/cover_wagd.jpg); 
+	background: url(../img/projects/cover_wagd.jpg);
 	background-size: contain;
 	background-size: cover;
 	background-position: right;
@@ -581,7 +611,7 @@ body {
 }
 
 .creations #parkingmeter {
-	background: url(../img/projects/cover_parkingmeter1.jpg); 
+	background: url(../img/projects/cover_parkingmeter1.jpg);
 	background-size: contain;
 	background-size: cover;
 	background-position: center;
@@ -590,7 +620,7 @@ body {
 
 .creations #azmo {
 	background: url(../img/projects/cover_azmo.jpg);
-	background-size: contain; 
+	background-size: contain;
 	background-size: cover;
 	background-position: center;
 	opacity:.85;
@@ -645,14 +675,14 @@ body {
 	font-family: 'Economica', sans-serif;
   	font-weight: bolder;
   	font-size: 2em;
-  	text-transform: uppercase; 
+  	text-transform: uppercase;
   	color:white;
   	text-align: center;
   	padding-top: 110px;
   	text-shadow: 0px 1px 1px rgba(25, 25, 25, 0.4);
 }
 
-.hobbies .col-lg-6 {  
+.hobbies .col-lg-6 {
 	height:324px;
 	padding-left: 42px;
 	padding-top: 9px;
@@ -676,14 +706,14 @@ body {
 }
 
 .hobbies #photography {
-	background: url(../img/hobbies/photography.jpg); 
+	background: url(../img/hobbies/photography.jpg);
 	background-size: contain;
 	background-size:cover;
 	background-position: center;
 	opacity:.85;
 }
 	.hobbies #photography:hover {
-		background: url(../img/hobbies/photography.jpg); 
+		background: url(../img/hobbies/photography.jpg);
 		background-size: contain;
 		background-size:cover;
 		background-position: center;
@@ -694,14 +724,14 @@ body {
 	}
 
 .hobbies #drawing {
-	background: url(../img/hobbies/drawing.jpg); 
+	background: url(../img/hobbies/drawing.jpg);
 	background-size: contain;
 	background-size:cover;
 	background-position: center;
 	opacity: .85;
 }
 		.hobbies #drawing:hover {
-			background: url(../img/hobbies/drawing.jpg); 
+			background: url(../img/hobbies/drawing.jpg);
 			background-size: contain;
 			background-size:cover;
 			background-position: center;
@@ -712,18 +742,18 @@ body {
 		}
 
 .hobbies #furniture {
-	background: url(../img/hobbies/furniture.jpg); 
+	background: url(../img/hobbies/furniture.jpg);
 	background-size: contain;
 	background-size:cover;
 	background-position: center;
-	opacity:.85; 
+	opacity:.85;
 }
 		.hobbies #furniture:hover {
-			background: url(../img/hobbies/furniture.jpg); 
+			background: url(../img/hobbies/furniture.jpg);
 			background-size: contain;
 			background-size:cover;
 			background-position: center;
-			opacity:1; 
+			opacity:1;
 		}
 		.hobbies #furniture:hover h2 {
 			color:#FACF00;
@@ -731,14 +761,14 @@ body {
 
 
 .hobbies #cooking {
-	background: url(../img/hobbies/cooking.jpg); 
+	background: url(../img/hobbies/cooking.jpg);
 	background-size: contain;
 	background-size:cover;
 	background-position: center;
 	opacity:.85;
 }
 		.hobbies #cooking:hover {
-			background: url(../img/hobbies/cooking.jpg); 
+			background: url(../img/hobbies/cooking.jpg);
 			background-size: contain;
 			background-size:cover;
 			background-position: center;
@@ -799,7 +829,7 @@ body {
         width: 50%;
         max-width: 450px;
         min-width: 190px;
-        height: 300px; 
+        height: 300px;
         background-color: background: -webkit-linear-gradient(#f2f2f2, white); /* For Safari 5.1 to 6.0 */
         background: -o-linear-gradient(#f2f2f2, white); /* For Opera 11.1 to 12.0 */
         background: -moz-linear-gradient(#f2f2f2, white); /* For Firefox 3.6 to 15 */
@@ -850,7 +880,7 @@ body {
 
   @media (max-width: 768px) {
     .white_content h2 {
-      padding-top:0; 
+      padding-top:0;
     }
     .white_content {
       height: 230px;
@@ -885,7 +915,7 @@ body {
 }
 
 
-  
+
 
 /* Social buttons---------------------*/
 
@@ -942,6 +972,3 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-
-
