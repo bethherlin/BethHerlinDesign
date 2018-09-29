@@ -13,7 +13,7 @@ body {
 
 .navbar-default .my-brand {
   padding: 0px;
-  background: url(../img/favconwhite.png) no-repeat center; 
+  background: url(../img/favconwhite.png) no-repeat center;
   background-size: contain;
   height:40px;
   width:40px;
@@ -113,7 +113,7 @@ body {
         visibility: hidden;
       }
     }
-  
+
 
 /* SIDEBAR -----------------------------------------------*/
 
@@ -238,7 +238,7 @@ body {
 }
 
 .jumbotron #oppdescription {
-  
+
   padding:25px;
   padding-bottom: 10px;
   font-family: 'Nunito', sans-serif;
@@ -293,9 +293,9 @@ body {
   padding-bottom: 15px;
 }
 
-.projects .video-container { 
-   position: relative; /* keeps the aspect ratio */ 
-   padding-bottom: 56.25%; /* fine tunes the video positioning */ 
+.projects .video-container {
+   position: relative; /* keeps the aspect ratio */
+   padding-bottom: 56.25%; /* fine tunes the video positioning */
    padding-top: 60px; overflow: hidden;
 }
 
@@ -377,7 +377,7 @@ body {
           padding-right: 15px;
           padding-left: 15px;
         }
-      } 
+      }
 
 
 /*HOBBIES CONTENT-----------------------------------------------*/
@@ -524,7 +524,7 @@ body {
       background: url("../img/hobbies/imgsphotography/babybaboon.jpg");
       background-size:cover;
       background-position: center;
-      width: 30%;     
+      width: 30%;
     }
     .photography #calmbeforetheride {
       background: url("../img/hobbies/imgsphotography/calmbeforetheride.jpg");
@@ -728,7 +728,7 @@ body {
 .furniture h2,
 .drawings h2 {
   padding-left:30px;
- 
+
   font-family: 'Economica', sans-serif;
   text-transform: uppercase;
   font-size: 2em;
@@ -875,7 +875,7 @@ body {
         width: 50%;
         max-width: 450px;
         min-width: 190px;
-        height: 300px; 
+        height: 300px;
         background-color: background: -webkit-linear-gradient(#f2f2f2, white); /* For Safari 5.1 to 6.0 */
         background: -o-linear-gradient(#f2f2f2, white); /* For Opera 11.1 to 12.0 */
         background: -moz-linear-gradient(#f2f2f2, white); /* For Firefox 3.6 to 15 */
@@ -926,7 +926,7 @@ body {
 
   @media (max-width: 768px) {
     .white_content h2 {
-      padding-top:0; 
+      padding-top:0;
     }
     .white_content {
       height: 230px;
@@ -961,7 +961,7 @@ body {
 }
 
 
-  
+
 
 /* Social buttons---------------------*/
 
@@ -1018,4 +1018,3 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
