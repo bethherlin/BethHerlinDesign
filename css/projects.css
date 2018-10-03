@@ -207,11 +207,11 @@ body {
 
 .jumbotron {
   margin-bottom: 15px;
-  padding:15px;
-  background: background: -webkit-linear-gradient(#F2F2F2, #D9D9D9); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#F2F2F2, #D9D9D9); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#F2F2F2, #D9D9D9); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#F2F2F2, #D9D9D9); /* Standard syntax */
+  padding:15px 30px;
+  background: -webkit-linear-gradient(#F2F2F2, #D9D9D9); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#F2F2F2, #D9D9D9); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#F2F2F2, #D9D9D9); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#F2F2F2, #D9D9D9); /* Standard syntax */
 }
 
 .jumbotron #title h2 {
@@ -228,7 +228,7 @@ body {
 
 .jumbotron #title {
   padding:0;
-  padding-left: 25px;
+  padding-left: 0;
   padding-right:25px;
   border-right:1px solid #191919;
 }
@@ -263,9 +263,13 @@ body {
 /*PROJECTS CONTENT-----------------------------------------------*/
 
 
+.projects {
+  padding: 0;
+}
 
 .projects .projectrow {
-  margin:0;
+  margin: 0;
+  padding: 0 15px;
 }
 
 .projects .process {
@@ -314,8 +318,8 @@ body {
 
 
 .projects .projdescrip {
-  padding-right: 50px;
-  padding-left: 50px;
+  padding-right: 0;
+  padding-left: 0;
   padding-top: 0px;
 }
 
@@ -364,14 +368,36 @@ body {
         .projects .projcontent div {
           padding-bottom: 8px;
         }
-      }
-      @media (max-width: 479px) {
-        .projects .projcontent div {
-          padding-bottom: 8px;
+        .jumbotron .container {
+          padding: 0;
+        }
+        .jumbotron #title {
+          padding: 0 30px;
+        }
+        .jumbotron #oppdescription {
+          padding: 0 30px;
         }
         .projects .projdescrip {
           padding-right: 30px;
           padding-left: 30px;
+        }
+      }
+      @media (max-width: 479px) {
+        .jumbotron .container {
+          padding: 0;
+        }
+        .jumbotron #title {
+          padding: 0 15px;
+        }
+        .jumbotron #oppdescription {
+          padding: 0 15px;
+        }
+        .projects .projcontent div {
+          padding-bottom: 8px;
+        }
+        .projects .projdescrip {
+          padding-right: 15px;
+          padding-left: 15px;
         }
         .projects img {
           padding-right: 15px;
