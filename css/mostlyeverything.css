@@ -523,8 +523,8 @@ body {
 
 .creations {
 	width: 100%;
-	margin: 0px;
-	padding:0px;
+	margin: 0;
+	padding: 0;
 }
 
 .creations .creationsrow {
@@ -542,6 +542,7 @@ body {
 
 .creations h2 {
 	font-family: 'Economica', sans-serif;
+  text-transform: uppercase;
   font-size: 1.5em;
   color: black;
   margin: 10px 0 0 0;
@@ -575,10 +576,15 @@ body {
 }
 
 	@media (max-width: 479px) {
-		.creations .col-lg-6,
-		.creations .col-lg-12 {
-			padding-left: 25px;
-		}
+    .creations .creationsrow {
+      padding: 0;
+    }
+    .creations .col-lg-4 {
+      padding: 0 15px 15px 15px;
+    }
+    .creations h1 {
+      padding: 15px 0;
+    }
 	}
 
 .clear {
@@ -684,13 +690,37 @@ body {
 	opacity:.9;
 }
 
+.creations #csa {
+	background: url(../img/projects/csa/acmg.jpg);
+	background-size: contain;
+	background-size: cover;
+	background-position: center;
+	opacity:.9;
+}
+
+.creations #sample-management {
+	background: url(../img/projects/sample-management/cover.jpg);
+	background-size: contain;
+	background-size: cover;
+	background-position: center;
+	opacity:.9;
+}
+
+.creations #genomic-news {
+	background: url(../img/projects/genomic-news/GeneCODE.jpg);
+	background-size: contain;
+	background-size: cover;
+	background-position: center;
+	opacity:.9;
+}
+
 
 /* HOBBIES ------------------------------------------------*/
 
 .hobbies {
 	width: 100%;
 	margin: 0px;
-	padding:0px;
+	padding: 15px 15px;
 }
 
 .hobbies .hobbiesrow {
@@ -706,22 +736,34 @@ body {
   	text-align: center;
   	padding-top: 110px;
   	text-shadow: 0px 1px 1px rgba(25, 25, 25, 0.4);
+    margin: 0;
+}
+
+.hobbies .hobbiesitem {
+  height: 324px;
+  padding-top: 25px;
 }
 
 .hobbies .col-lg-6 {
-	height:324px;
-	padding-left: 42px;
-	padding-top: 9px;
+  padding: 15px;
 }
 
     @media (max-width: 479px) {
-    	.hobbies .col-lg-6 {
-    		height:117px;
+    	.hobbies {
+        padding: 7px 0;
     	}
+      .hobbies .col-lg-6 {
+        padding: 7px 15px;
+    	}
+      .hobbies .hobbiesitem {
+        height: 124px;
+      }
     	.hobbies h2 {
     		padding-top:16px;
     	}
     }
+
+
 
 .clear {
 	clear:both;

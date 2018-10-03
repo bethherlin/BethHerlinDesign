@@ -9,17 +9,15 @@
 	margin-top:65px;
 }
 .subtext {
-  padding-left:46px;
   font-family: Nunito, sans-serif;
 	font-size: 1.2em;
 	color: #191919;
   margin-top: 3px;
-  width: 170px;
 }
 
 
 #homevid {
-	margin-bottom: 50px; 
+	margin-bottom: 50px;
 	min-width:100%;
 	min-height:100%;
 	position:fixed; right:0; bottom:0;
@@ -46,7 +44,7 @@
 }
 
 .navrow {
-	
+
 	text-align: center;
 }
 
@@ -89,16 +87,16 @@
   position:relative;
   transition: background-color 200ms ease, text-shadow 200ms ease;
 }
-.hexagon:hover .frontmiddle, 
+.hexagon:hover .frontmiddle,
 .hexagon:active .frontmiddle {
   text-shadow: 0px 1px 1px rgba(25, 25, 25, 0.4);
   background-color: #FACF00
 }
-.hexagon:hover .fronttop, 
+.hexagon:hover .fronttop,
 .hexagon:active .fronttop {
   border-bottom-color: #FACF00;
 }
-.hexagon:hover .frontbottom, 
+.hexagon:hover .frontbottom,
 .hexagon:active .frontbottom {
   border-top-color: #FACF00
 }
@@ -141,7 +139,7 @@
   height: 55px;
   background-color: #D9D9D9;
   z-index: 5;
-  
+
   line-height: 55px;
   text-align: center;
   font-family: 'Economica', sans-serif;
@@ -200,7 +198,7 @@
   top:22px;
   padding-top: 2px;
   position: relative;
-  
+
   background-color: #191919;
   z-index: 0;
 }
@@ -215,7 +213,7 @@
   overflow: hidden;
   background: inherit;
   z-index: 4;
-  
+
   backface-visibility: hidden;
 }
 .hexshadow .face1:before,
@@ -249,7 +247,7 @@
 	color:#191919;
 	text-align: center;
 	text-transform: uppercase;
-	
+
 }
 
 	@media (max-width: 768px) {
@@ -263,7 +261,7 @@
       padding-left: 9%;
     }
   }
-	@media (max-width: 479px) {   
+	@media (max-width: 479px) {
 
     .logo {
 			width: 150px;
@@ -272,9 +270,8 @@
 		}
 		.subtext {
 			font-size: 1em;
-      padding-left: 27px;
 		}
-  } 
+  }
 
 .blackbottom {
   background-color:#191919;
@@ -373,7 +370,7 @@
         width: 50%;
         max-width: 450px;
         min-width: 190px;
-        height: 300px; 
+        height: 300px;
         background-color: background: -webkit-linear-gradient(#f2f2f2, white); /* For Safari 5.1 to 6.0 */
         background: -o-linear-gradient(#f2f2f2, white); /* For Opera 11.1 to 12.0 */
         background: -moz-linear-gradient(#f2f2f2, white); /* For Firefox 3.6 to 15 */
@@ -424,7 +421,7 @@
 
   @media (max-width: 768px) {
     .white_content h2 {
-      padding-top:0; 
+      padding-top:0;
     }
     .white_content {
       height: 230px;
@@ -459,7 +456,7 @@
 }
 
 
-  
+
 
 /* Social buttons---------------------*/
 
@@ -516,4 +513,3 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-
