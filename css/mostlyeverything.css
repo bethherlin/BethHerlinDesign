@@ -425,7 +425,7 @@ body {
 .jumbotron {
 	margin-bottom: 30px;
 	padding:20px;
-	background: background: -webkit-linear-gradient(#F2F2F2, #D9D9D9); /* For Safari 5.1 to 6.0 */
+	background: -webkit-linear-gradient(#F2F2F2, #D9D9D9); /* For Safari 5.1 to 6.0 */
   	background: -o-linear-gradient(#F2F2F2, #D9D9D9); /* For Opera 11.1 to 12.0 */
   	background: -moz-linear-gradient(#F2F2F2, #D9D9D9); /* For Firefox 3.6 to 15 */
   	background: linear-gradient(#F2F2F2, #D9D9D9); /* Standard syntax */
@@ -602,7 +602,26 @@ body {
 	.creations #forza:hover,
 	.creations #profiles:hover,
 	.creations #roots:hover,
-	.creations #roots:focus {
+	.creations #roots:focus,
+  .creations #blackduck:hover,
+  .creations #csa:hover,
+  .creations #genomic-news:hover,
+  .creations #janssen:hover,
+  .creations #sample-management:hover,
+  .creations #cds:hover,
+  .creations #cas:hover,
+  .creations #careplans:hover,
+  .creations #carrier-testing:hover,
+  .creations #zika:hover,
+  .creations #updox:hover,
+  .creations #walgreens:hover,
+  .creations #glytec-cm:hover,
+  .creations #glytec-patient:hover,
+  .creations #seniorlink:hover,
+  .creations #measuredhealth:hover,
+  .creations #betterlesson:hover,
+  .creations #hallmarkhealth:hover,
+  .creations #slingtype:hover {
 		opacity: 1;
 	}
 
@@ -621,7 +640,26 @@ body {
 	.creations #forza:hover h2,
 	.creations #profiles:hover h2,
 	.creations #roots:hover h2,
-	.creations #roots:focus h2 {
+	.creations #roots:focus h2,
+  .creations #blackduck:hover h2,
+  .creations #csa:hover h2,
+  .creations #genomic-news:hover h2,
+  .creations #janssen:hover h2,
+  .creations #sample-management:hover h2,
+  .creations #cds:hover h2,
+  .creations #cas:hover h2,
+  .creations #careplans:hover h2,
+  .creations #carrier-testing:hover h2,
+  .creations #zika:hover h2,
+  .creations #updox:hover h2,
+  .creations #walgreens:hover h2,
+  .creations #glytec-cm:hover h2,
+  .creations #glytec-patient:hover h2
+  .creations #seniorlink:hover h2,
+  .creations #measuredhealth:hover h2,
+  .creations #betterlesson:hover h2,
+  .creations #hallmarkhealth:hover h2,
+  .creations #slingtype:hover h2 {
 		color:#FACF00;
 		text-shadow: 0px 1px 1px rgba(25, 25, 25, 0.6);;
 	}
@@ -708,6 +746,126 @@ body {
 
 .creations #genomic-news {
 	background: url(../img/projects/genomic-news/GeneCODE.jpg);
+	background-size: contain;
+	background-size: cover;
+	background-position: center;
+	opacity:.9;
+}
+
+.creations #blackduck {
+	background: url(../img/projects/blackduck/blackduck.jpg);
+	background-size: contain;
+	background-size: cover;
+	background-position: center;
+	opacity:.9;
+}
+
+.creations #cas {
+	background: url(../img/projects/cas/cas.jpg);
+	background-size: contain;
+	background-size: cover;
+	background-position: center;
+	opacity:.9;
+}
+
+.creations #cds {
+	background: url(../img/projects/cds/cds.jpg);
+	background-size: contain;
+	background-size: cover;
+	background-position: center;
+	opacity:.9;
+}
+
+.creations #careplans {
+	background: url(../img/projects/careplans/careplans.jpg);
+	background-size: contain;
+	background-size: cover;
+	background-position: center;
+	opacity:.9;
+}
+
+.creations #carrier-testing {
+	background: url(../img/projects/carrier-testing/carrier-testing.jpg);
+	background-size: contain;
+	background-size: cover;
+	background-position: center;
+	opacity:.9;
+}
+
+.creations #zika {
+	background: url(../img/projects/zika/zika.jpg);
+	background-size: contain;
+	background-size: cover;
+	background-position: center;
+	opacity:.9;
+}
+
+.creations #updox {
+	background: url(../img/projects/updox/updox.jpg);
+	background-size: contain;
+	background-size: cover;
+	background-position: center;
+	opacity:.9;
+}
+
+.creations #walgreens {
+	background: url(../img/projects/walgreens/walgreens.jpg);
+	background-size: contain;
+	background-size: cover;
+	background-position: center;
+	opacity:.9;
+}
+
+.creations #glytec-cm {
+	background: url(../img/projects/glytec/glytec-cm.jpg);
+	background-size: contain;
+	background-size: cover;
+	background-position: center;
+	opacity:.9;
+}
+
+.creations #glytec-patient {
+	background: url(../img/projects/glytec/glytec-patient.jpg);
+	background-size: contain;
+	background-size: cover;
+	background-position: center;
+	opacity:.9;
+}
+
+.creations #seniorlink {
+	background: url(../img/projects/seniorlink/seniorlink.jpg);
+	background-size: contain;
+	background-size: cover;
+	background-position: center;
+	opacity:.9;
+}
+
+.creations #measuredhealth {
+	background: url(../img/projects/measuredhealth/booklet.jpg);
+	background-size: contain;
+	background-size: cover;
+	background-position: center;
+	opacity:.9;
+}
+
+.creations #betterlesson {
+	background: url(../img/projects/betterlesson/betterlesson.jpg);
+	background-size: contain;
+	background-size: cover;
+	background-position: center;
+	opacity:.9;
+}
+
+.creations #hallmarkhealth {
+	background: url(../img/projects/hallmarkhealth/hallmarkhealth.jpg);
+	background-size: contain;
+	background-size: cover;
+	background-position: center;
+	opacity:.9;
+}
+
+.creations #slingtype {
+	background: url(../img/projects/slingtype/postcards.jpg);
 	background-size: contain;
 	background-size: cover;
 	background-position: center;
