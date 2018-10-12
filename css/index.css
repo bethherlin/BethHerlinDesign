@@ -508,6 +508,11 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.github-hover {
+  background: url("../img/contact/github-icon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .twitter-hover {
   background: url("../img/contact/twitter-icon.png");
   background-repeat: no-repeat;
