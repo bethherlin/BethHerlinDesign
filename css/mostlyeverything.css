@@ -621,7 +621,8 @@ body {
   .creations #measuredhealth:hover,
   .creations #betterlesson:hover,
   .creations #hallmarkhealth:hover,
-  .creations #slingtype:hover {
+  .creations #slingtype:hover,
+  .creations #familycode:hover {
 		opacity: 1;
 	}
 
@@ -659,7 +660,8 @@ body {
   .creations #measuredhealth:hover h2,
   .creations #betterlesson:hover h2,
   .creations #hallmarkhealth:hover h2,
-  .creations #slingtype:hover h2 {
+  .creations #slingtype:hover h2,
+  .creations #familycode:hover h2 {
 		color:#FACF00;
 		text-shadow: 0px 1px 1px rgba(25, 25, 25, 0.6);;
 	}
@@ -866,6 +868,14 @@ body {
 
 .creations #slingtype {
 	background: url(../img/projects/slingtype/postcards.jpg);
+	background-size: contain;
+	background-size: cover;
+	background-position: center;
+	opacity:.9;
+}
+
+.creations #familycode {
+	background: url(../img/projects/familycode/familycode.jpg);
 	background-size: contain;
 	background-size: cover;
 	background-position: center;
