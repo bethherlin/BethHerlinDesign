@@ -623,7 +623,9 @@ body {
   .creations #hallmarkhealth:hover,
   .creations #slingtype:hover,
   .creations #familycode:hover,
-  .creations #design-system:hover {
+  .creations #design-system:hover,
+  .creations #digital-healthcare:hover,
+  .creations #careplan-startup:hover h2 {
 		opacity: 1;
 	}
 
@@ -663,7 +665,9 @@ body {
   .creations #hallmarkhealth:hover h2,
   .creations #slingtype:hover h2,
   .creations #familycode:hover h2,
-  .creations #design-system:hover h2 {
+  .creations #design-system:hover h2,
+  .creations #digital-healthcare:hover h2,
+  .creations #careplan-startup:hover h2 {
 		color:#FACF00;
 		text-shadow: 0px 1px 1px rgba(25, 25, 25, 0.6);;
 	}
@@ -853,7 +857,7 @@ body {
 }
 
 .creations #betterlesson {
-	background: url(../img/projects/betterlesson/betterlesson.jpg);
+	background: url(../img/projects/betterlesson/whitepaper-2.jpg);
 	background-size: contain;
 	background-size: cover;
 	background-position: center;
@@ -889,6 +893,22 @@ body {
 	background-size: contain;
 	background-size: cover;
 	background-position: left;
+	opacity:.9;
+}
+
+.creations #digital-healthcare {
+	background: url(../img/projects/careplans/digital-health.jpg);
+	background-size: contain;
+	background-size: cover;
+	background-position: top;
+	opacity:.9;
+}
+
+.creations #careplan-startup {
+	background: url(../img/projects/careplans/startup.jpg);
+	background-size: contain;
+	background-size: cover;
+	background-position: top;
 	opacity:.9;
 }
 
