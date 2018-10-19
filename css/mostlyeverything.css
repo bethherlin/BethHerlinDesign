@@ -622,7 +622,8 @@ body {
   .creations #betterlesson:hover,
   .creations #hallmarkhealth:hover,
   .creations #slingtype:hover,
-  .creations #familycode:hover {
+  .creations #familycode:hover,
+  .creations #design-system:hover {
 		opacity: 1;
 	}
 
@@ -661,7 +662,8 @@ body {
   .creations #betterlesson:hover h2,
   .creations #hallmarkhealth:hover h2,
   .creations #slingtype:hover h2,
-  .creations #familycode:hover h2 {
+  .creations #familycode:hover h2,
+  .creations #design-system:hover h2 {
 		color:#FACF00;
 		text-shadow: 0px 1px 1px rgba(25, 25, 25, 0.6);;
 	}
@@ -879,6 +881,14 @@ body {
 	background-size: contain;
 	background-size: cover;
 	background-position: center;
+	opacity:.9;
+}
+
+.creations #design-system {
+	background: url(../img/projects/csa/design-system.jpg);
+	background-size: contain;
+	background-size: cover;
+	background-position: left;
 	opacity:.9;
 }
 
