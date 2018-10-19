@@ -20,6 +20,17 @@
             });
 
             $(document).ready(function(){
+                      $("#infoarch") // select your element (supports CSS selectors)
+                .hover(function(){ // trigger the mouseover event
+                    $("#infoarchdes") // select the element to show (can be anywhere)
+                        .show(); // show the element
+                }, function(){ // trigger the mouseout event
+                    $("#infoarchdes") // select the same element
+                        .hide(); // hide it
+                });
+            });
+
+            $(document).ready(function(){
                       $("#commdesign") // select your element (supports CSS selectors)
                 .hover(function(){ // trigger the mouseover event
                     $("#commdesigndes") // select the element to show (can be anywhere)
@@ -85,16 +96,6 @@
                 });
             });
 
-            $(document).ready(function(){
-                      $("#webdesign") // select your element (supports CSS selectors)
-                .hover(function(){ // trigger the mouseover event
-                    $("#webdesigndes") // select the element to show (can be anywhere)
-                        .show(); // show the element
-                }, function(){ // trigger the mouseout event
-                    $("#webdesigndes") // select the same element
-                        .hide(); // hide it
-                });
-            });
 
             $(document).ready(function(){
                       $("#userresearch") // select your element (supports CSS selectors)
@@ -108,12 +109,12 @@
             });
 
             $(document).ready(function(){
-                      $("#productdesign") // select your element (supports CSS selectors)
+                      $("#production") // select your element (supports CSS selectors)
                 .hover(function(){ // trigger the mouseover event
-                    $("#productdesigndes") // select the element to show (can be anywhere)
+                    $("#productiondes") // select the element to show (can be anywhere)
                         .show(); // show the element
                 }, function(){ // trigger the mouseout event
-                    $("#productdesigndes") // select the same element
+                    $("#productiondes") // select the same element
                         .hide(); // hide it
                 });
             });
@@ -125,6 +126,17 @@
                         .show(); // show the element
                 }, function(){ // trigger the mouseout event
                     $("#productdevdes") // select the same element
+                        .hide(); // hide it
+                });
+            });
+
+            $(document).ready(function(){
+                      $("#illustration") // select your element (supports CSS selectors)
+                .hover(function(){ // trigger the mouseover event
+                    $("#illustrationdes") // select the element to show (can be anywhere)
+                        .show(); // show the element
+                }, function(){ // trigger the mouseout event
+                    $("#illustrationdes") // select the same element
                         .hide(); // hide it
                 });
             });

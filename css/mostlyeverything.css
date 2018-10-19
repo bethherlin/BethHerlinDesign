@@ -198,11 +198,6 @@ body {
 	background-size: cover;
 	background-position: center;
 }
-.skills #webdesign:hover {
-	background: url("../img/story/webdesign.png");
-	background-size: cover;
-	background-position: center;
-}
 .skills #leadman:hover {
 	background: url("../img/story/leadman.png");
 	background-size: cover;
@@ -228,11 +223,6 @@ body {
 	background-size: cover;
 	background-position: center;
 }
-.skills #productdesign:hover {
-	background: url("../img/story/productdesign.png");
-	background-size: cover;
-	background-position: center;
-}
 .skills #interactiondesign:hover {
 	background: url("../img/story/interactiondesign.png");
 	background-size: cover;
@@ -244,17 +234,17 @@ body {
 	background-position: center;
 }
 .skills #infoarch:hover {
-	background: url("../img/story/uxdesign.png");
+	background: url("../img/story/infoarch.png");
 	background-size: cover;
 	background-position: center;
 }
 .skills #production:hover {
-	background: url("../img/story/uxdesign.png");
+	background: url("../img/story/production.png");
 	background-size: cover;
 	background-position: center;
 }
 .skills #illustration:hover {
-	background: url("../img/story/uxdesign.png");
+	background: url("../img/story/productdesign.png");
 	background-size: cover;
 	background-position: center;
 }
@@ -313,6 +303,29 @@ body {
   padding-top: 8px;
 }
 
+@media (max-width: 479px) {
+  .skills .skillmap h2 {
+		font-size: .6em;
+		margin-top: 10px;
+	}
+  .skills .toprow .full,
+  .skills .secondrow .full {
+    height: 100px;
+    padding-top: 30px;
+  }
+
+  .skills .toprow .half,
+  .skills .secondrow .half {
+    height: 50px;
+    padding-top: 10px;
+  }
+
+  .skills .thirdrow .full {
+    height: 35px;
+    padding-top:0;
+  }
+}
+
 .skills #uxdesign {
 	border-top-left-radius: 9px;
 }
@@ -342,12 +355,13 @@ body {
 	font-weight: lighter;
 	color: #191919;
 	display: none;
+  height: 100px;
 }
 .skills .skilldescription #placeholder {
 	display: block;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
 	.skills .skillmap h2 {
 		font-size: .7em;
 		margin-top: 10px;
@@ -396,8 +410,10 @@ body {
 		padding-left: 0;
 		padding-right: 0;
 	}
+  }
+   */
 
-}
+
 
 #nextbutton {
 	text-align: center;

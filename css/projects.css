@@ -400,8 +400,7 @@ body {
           padding-left: 15px;
         }
         .projects img {
-          padding-right: 15px;
-          padding-left: 15px;
+          padding: 0 0 15px 0;
         }
       }
 
