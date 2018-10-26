@@ -8,6 +8,7 @@
                         .show(); // hide it
                 });
             });
+
             $(document).ready(function(){
                       $("#uxdesign") // select your element (supports CSS selectors)
                 .hover(function(){ // trigger the mouseover event
@@ -138,5 +139,14 @@
                 }, function(){ // trigger the mouseout event
                     $("#illustrationdes") // select the same element
                         .hide(); // hide it
+                });
+            });
+
+            $(document).ready(function(){
+                      $("#story") // select your element (supports CSS selectors)
+                .hover(function(){ // trigger the mouseover event
+                    $('.backimage').css('background-image', 'url(../img/homepic-wall2.jpg)');
+                }, function(){ // trigger the mouseout event
+                    $('.backimage').css('background-image', 'url(../img/hero-blue.jpg)');
                 });
             });
