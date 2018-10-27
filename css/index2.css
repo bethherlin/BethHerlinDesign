@@ -56,9 +56,10 @@ body {
 	padding-left: 0;
   padding-right: 0;
 	position: fixed;
-	height: 384px;
-	top: calc(50% - 142px);
+	top: calc(50% - 190px);
 	left: calc(50% - 168px);
+	width: 336px;
+  height: 384px;
 }
 
 .fronttop {
@@ -144,37 +145,37 @@ body {
 .contact-icon {
 	position: relative;
 	margin-top: 9px;
-	margin-left: -253px;
+	margin-left: 23px;
 }
 
 .story-icon {
 	position: relative;
 	margin-top: -114px;
-	margin-left: 2px;
+	margin-left: 149px;
 }
 
 .methods-icon {
 	position: relative;
 	margin-top: 33px;
-	margin-left: 241px;
+	margin-left: 278px;
 }
 
 .inspiration-icon {
 	position: relative;
 	margin-top: -139px;
-	margin-left: -258px;
+	margin-left: 20px;
 }
 
 .hobbies-icon {
 	position: relative;
 	margin-top: 31px;
-	margin-left: -2px;
+	margin-left: 150px;
 }
 
 .creations-icon {
 	position: relative;
 	margin-top: -109px;
-	margin-left: 249px;
+	margin-left: 283px;
 }
 
 .nav-tooltip {
@@ -190,30 +191,33 @@ body {
 	padding-top: 5px;
 	font-size: 1em;
 	color: white;
+	text-align: center;
 	font-family: "Nunito", sans-serif;
 }
 
 #contact-tooltip {
 	margin-top: -226px;
-	margin-left: -455px;
+	margin-left: -109px;
 }
 #story-tooltip {
 	margin-top: -327px;
+	margin-left: 116px;
 }
 #methods-tooltip {
 	margin-top: -223px;
-	margin-left: 460px;
+	margin-left: 348px;
 }
 #inspiration-tooltip {
 	margin-top: 5px;
-	margin-left: -456px;
+	margin-left: -112px;
 }
 #hobbies-tooltip {
 	margin-top: 108px;
+	margin-left: 117px;
 }
 #creations-tooltip {
 	margin-top: 9px;
-	margin-left: 456px;
+	margin-left: 346px;
 }
 
 
@@ -386,7 +390,7 @@ body {
 .white_content {
   display: none;
   position: fixed;
-	top: calc(50% - 142px);
+	top: calc(50% - 190px);
 	left: calc(50% - 168px);
 	width: 336px;
   height: 384px;
