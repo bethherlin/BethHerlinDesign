@@ -85,7 +85,7 @@ body {
 
 
 		/* Active state gets a caret at the bottom */
-		.nav.navbar-nav .active {
+		/* .nav.navbar-nav .active {
       		color: #FACF00;
 	    }
 	    .nav.navbar-nav .active:after {
@@ -111,7 +111,8 @@ body {
       		.nav.navbar-nav .active:after {
         		visibility: hidden;
       		}
-    	}
+    	} */
+
 
 /* STORY
 -------------------------------------------------- */

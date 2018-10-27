@@ -12,13 +12,13 @@ body {
 	width: 180px;
 	z-index: 10;
 	position:relative;
-	margin-top: 40px;
+	margin-top: 25px;
 }
 .subtext {
   font-family: Nunito, sans-serif;
-	font-size: 1.2em;
-	color: #191919;
-  margin-top: 3px;
+	font-size: 1em;
+	color: white;
+  margin-top: 5px;
 }
 
 
@@ -95,11 +95,6 @@ body {
 
 .indexnav {
 	padding-top: 15px;
-}
-
-.hexagon h2 {
-  margin-top:10px;
-	font-size: 1.5em;
 }
 
 .hexagon h3 {
@@ -486,13 +481,6 @@ body {
   .close-btn {
 		margin-top: 10px;
 		margin: auto;
-		/* width: 100px; */
-    /* margin-top: 5px;
-    margin-right: 5px;
-    float:right;
-    -moz-box-shadow:    inset 0 0 3px #bdbdbd;
-    -webkit-box-shadow: inset 0 0 3px #bdbdbd;
-    box-shadow:         inset 0 0 3px #bdbdbd; */
     font-size: 1em;
     font-family: Nunito, sans-serif;
     color: gray;
@@ -565,3 +553,53 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+
+
+
+
+/* Card flip animation ===========================================*/
+
+/* .flip-container {
+	-webkit-perspective: 1000px;
+  perspective: 1000px;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  display: block;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+	position: fixed;
+	margin: 500px;
+}
+
+.flipper {
+	position: relative;
+  height: 100%;
+  width: 100%;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transition: all 600ms;
+  transition: all 600ms;
+  z-index: 20;
+}
+
+.flip-front,
+.flip-back {
+	position: absolute;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-back {
+	-webkit-transform: rotateX(180deg);
+  transform: rotateX(180deg);
+}
+
+input {
+    display: none;
+}
+
+:checked + .flipper {
+    transform: rotateX(180deg);
+    -webkit-transform: rotateX(180deg);
+} */
