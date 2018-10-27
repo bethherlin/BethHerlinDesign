@@ -1,12 +1,18 @@
+body {
+	height: 100%;
+	width: 100%;
+}
+
 .headblock {
 	padding-left: 17%;
 }
+
 .logo {
 	height: auto;
 	width: 180px;
 	z-index: 10;
 	position:relative;
-	margin-top:40px;
+	margin-top: 40px;
 }
 .subtext {
   font-family: Nunito, sans-serif;
@@ -23,15 +29,15 @@
 	position:fixed; right:0; bottom:0;
 	z-index: -100;
 	background:url(cover.jpg);
-	background-size:cover;
+	background-size: cover;
 }
 .backimage {
-  background:url(../img/hero-blue-angle.jpg);
+  background: url(../img/hero-blue-angle.jpg);
   width: 100%;
   height:100%;
   top: 0;
   background-size: cover;
-  position:fixed; bottom:0; right:0; top:0;
+  position: fixed; bottom:0; right:0; top:0;
   background-position: center;
   z-index: -100;
 }
@@ -47,10 +53,12 @@
 }
 
 .circleblock {
-	margin: auto;
 	padding-left: 0;
   padding-right: 0;
-	padding-top: 200px;
+	position: fixed;
+	height: 384px;
+	top: calc(50% - 142px);
+	left: calc(50% - 168px);
 }
 
 .fronttop {
@@ -115,11 +123,12 @@
 
 .nav-icon-container {
 	height: 40px;
+	width: 40px;
 	z-index: 40;
 }
 
 .nav-icon {
-	height: 40px;
+	height: 35px;
 }
 .nav-icon:hover .nav-path {
 	fill: #FACF00;
@@ -128,46 +137,44 @@
 	fill: #FFFFFF;
 }
 
+#toptarget {
+	position: relative;
+}
+
 .contact-icon {
 	position: relative;
 	margin-top: 9px;
 	margin-left: -253px;
-	margin-bottom: 0;
 }
 
 .story-icon {
 	position: relative;
 	margin-top: -114px;
 	margin-left: 2px;
-	margin-bottom: 0;
 }
 
 .methods-icon {
 	position: relative;
 	margin-top: 33px;
 	margin-left: 241px;
-	margin-bottom: 0;
 }
 
 .inspiration-icon {
 	position: relative;
-	margin-top: -145px;
+	margin-top: -139px;
 	margin-left: -258px;
-	margin-bottom: 0;
 }
 
 .hobbies-icon {
 	position: relative;
-	margin-top: 25px;
+	margin-top: 31px;
 	margin-left: -2px;
-	margin-bottom: 0;
 }
 
 .creations-icon {
 	position: relative;
-	margin-top: -113px;
-	margin-left: 250px;
-	margin-bottom: 0;
+	margin-top: -109px;
+	margin-left: 249px;
 }
 
 .nav-tooltip {
@@ -191,21 +198,21 @@
 	margin-left: -455px;
 }
 #story-tooltip {
-	margin-top: -131px;
+	margin-top: -327px;
 }
 #methods-tooltip {
-	margin-top: 77px;
+	margin-top: -223px;
 	margin-left: 460px;
 }
 #inspiration-tooltip {
-	margin-top: 196px;
+	margin-top: 5px;
 	margin-left: -456px;
 }
 #hobbies-tooltip {
-	margin-top: 72px;
+	margin-top: 108px;
 }
 #creations-tooltip {
-	margin-top: -130px;
+	margin-top: 9px;
 	margin-left: 456px;
 }
 
@@ -362,110 +369,130 @@
 
 /* CONTACT POP-UP ---------------------------------------*/
 
-.black_overlay{
-        display: none;
-        position: fixed;
-        top: 0%;
-        left: 0%;
-        width: 100%;
-        height: 100%;
-        background-color: black;
-        z-index:1001;
-        -moz-opacity: 0.8;
-        opacity:.50;
-        filter: alpha(opacity=80);
-    }
-    .white_content {
-        display: none;
-        position: fixed;
-        top: 25%;
-        left: 25%;
-        width: 50%;
-        max-width: 450px;
-        min-width: 190px;
-        height: 300px;
-        background-color: background: -webkit-linear-gradient(#f2f2f2, white); /* For Safari 5.1 to 6.0 */
-        background: -o-linear-gradient(#f2f2f2, white); /* For Opera 11.1 to 12.0 */
-        background: -moz-linear-gradient(#f2f2f2, white); /* For Firefox 3.6 to 15 */
-        background: linear-gradient(#f2f2f2, white); /* Standard syntax */;
-        border-radius: 5px;
-        box-shadow: 0px 2px 2px rgba(25, 25, 25, 0.8);
-        z-index:1002;
-        overflow: auto;
-    }
-    .white_content .contactcontain {
-      margin: 0;
-    }
-    .white_content .imgwrapper {
-      padding:15px;
-      height: 300px;
-    }
-    .white_content .contactimg {
-      background: url("../img/contact/beth.jpg");
-      height:270px;
-      background-size: cover;
-    }
-    .white_content h2 {
-      padding-top: 50px;
-      font-family: Economica, sans-serif;
-      font-size: 2em;
-      text-transform: uppercase;
-      color:#191919;
-    }
-    .white_content p {
-      font-family: Nunito, sans-serif;
-      font-size: 1em;
-      color:#191919;
-    }
-    .white_content p a {
-      text-decoration: none;
-      color:gray;
-    }
-    .white_content p a:hover {
-      color:#FACF00;
-    }
-  }
+.black_overlay {
+  display: none;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index:1001;
+  -moz-opacity: 0.8;
+  opacity:.50;
+  filter: alpha(opacity=80);
+}
 
-    @media (max-width: 768px) {
-    .white_content {
-      width:300px;
-    }
-  }
+.white_content {
+  display: none;
+  position: fixed;
+	top: calc(50% - 142px);
+	left: calc(50% - 168px);
+	width: 336px;
+  height: 384px;
+  /* background-color: -webkit-linear-gradient(#f2f2f2, white);
+  border-radius: 5px;
+  box-shadow: 0px 2px 2px rgba(25, 25, 25, 0.8); */
+  z-index:1002;
+}
+.contacthex-top {
+  width: 0;
+  border-bottom: 96px solid white;
+  border-left: 168px solid transparent;
+  border-right: 168px solid transparent;
+	position: relative;
+}
+.contacthex-middle {
+  width: 336px;
+  height: 192px;
+  background-color: white;
+  padding-top: 1px;
+  line-height: 55px;
+  text-align: center;
+  font-family: 'Economica', sans-serif;
+  font-size: 1em;
+  color: #191919;
+	margin: 0;
+	position: relative;
+}
+.contacthex-bottom {
+  width: 0;
+  border-top: 96px solid white;
+  border-left: 168px solid transparent;
+  border-right: 169px solid transparent;
+}
 
-  @media (max-width: 768px) {
-    .white_content h2 {
-      padding-top:0;
-    }
-    .white_content {
-      height: 230px;
-    }
+/* .white_content .contactcontain {
+  margin: 0;
+} */
+/* .white_content .imgwrapper {
+  padding:15px;
+} */
+.white_content .contactimg {
+  background: url("../img/contact/beth.jpg");
+  height:100px;
+	width: 100px;
+	border-radius: 50px;
+  background-size: cover;
+	background-position: top;
+	margin: auto;
+	margin-top: -61px;
+}
+.white_content h2 {
+  font-family: Economica, sans-serif;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  color:#191919;
+}
+.white_content p {
+  font-family: Nunito, sans-serif;
+  font-size: 1em;
+  color:#191919;
+	line-height: 19px;
+}
+.white_content a {
+  text-decoration: none;
+  color: gray;
+	font-size: 1em;
+	font-family: Nunito, sans-serif;
+	display: block;
+}
+.white_content a:hover {
+  color:#FACF00;
+}
+}
+
+@media (max-width: 768px) {
+  .white_content {
+    width:300px;
   }
+}
+
+@media (max-width: 768px) {
+  .white_content h2 {
+    padding-top:0;
+  }
+  .white_content {
+    height: 230px;
+  }
+}
 
 /* Close 'x'----------------------*/
 
   .close-btn {
-    background-color: #F0F0F0;
-    border-radius: 100%;
-    padding-top: 4px;
-    padding-left: 10px;
-    height: 28px;
-    width: 28px;
-    margin-top: 5px;
+		margin-top: 10px;
+		margin: auto;
+		/* width: 100px; */
+    /* margin-top: 5px;
     margin-right: 5px;
     float:right;
     -moz-box-shadow:    inset 0 0 3px #bdbdbd;
     -webkit-box-shadow: inset 0 0 3px #bdbdbd;
-    box-shadow:         inset 0 0 3px #bdbdbd;
-    font-size: 15px;
+    box-shadow:         inset 0 0 3px #bdbdbd; */
+    font-size: 1em;
     font-family: Nunito, sans-serif;
-    font-weight: bold;
     color: gray;
     text-decoration: none;
-}
-
-.close-btn:hover,
-.close-btn:active {
-  background-color: #c9c9c9;
 }
 
 
@@ -480,15 +507,18 @@
 }
 
 .socialfooter {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 62px;
+  padding-right: 62px;
+	display: block;
+	margin: auto;
+	margin-top: 10px;
 }
 
 .social-roll {
   display: inline-block;
-  height: 38px;
-  width: 38px;
-  margin: 4px;
+  height: 34px;
+  width: 34px;
+  margin: 6px;
   float: left;
   border-radius: 50%;
   -webkit-transition: all ease 0.3s;

@@ -1,3 +1,13 @@
+// 
+// $(document).ready(function(){
+//   $('backimage').cover({
+//     ratio: 1080 / 1920
+//   });
+//
+//   $(window).resize(function() {
+//     $('backimage').cover('set');
+//   });
+// });
 
 $(document).ready(function(){
           $(".contact-icon") // select your element (supports CSS selectors)
@@ -66,18 +76,11 @@ $(document).ready(function(){
 });
 
 
-
-
-
-
-
-
-
-            // $(document).ready(function(){
-            //           $(".story-icon") // select your element (supports CSS selectors)
-            //     .hover(function(){ // trigger the mouseover event
-            //         $('.backimage').css('background-image', 'url(../img/homepic-wall2.jpg)');
-            //     }, function(){ // trigger the mouseout event
-            //         $('.backimage').css('background-image', 'url(../img/hero-blue.jpg)');
-            //     });
-            // });
+// $(document).ready(function(){
+//           $(".story-icon") // select your element (supports CSS selectors)
+//     .hover(function(){ // trigger the mouseover event
+//         $('.backimage').css('background', 'url(img/homepic-wall2.jpg)');
+//     }, function(){ // trigger the mouseout event
+//         $('.backimage').css('background', 'url(img/hero-blue-angle.jpg)');
+//     });
+// });
