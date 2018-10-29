@@ -1,4 +1,4 @@
-// 
+//
 // $(document).ready(function(){
 //   $('backimage').cover({
 //     ratio: 1080 / 1920
@@ -12,6 +12,7 @@
 $(document).ready(function(){
           $(".contact-icon") // select your element (supports CSS selectors)
     .hover(function(){ // trigger the mouseover event
+      if ( $(window).width() > 768 )
         $("#contact-tooltip") // select the element to show (can be anywhere)
             .show(); // show the element
     }, function(){ // trigger the mouseout event
@@ -23,6 +24,7 @@ $(document).ready(function(){
 $(document).ready(function(){
           $(".story-icon") // select your element (supports CSS selectors)
     .hover(function(){ // trigger the mouseover event
+      if ( $(window).width() > 768 )
         $("#story-tooltip") // select the element to show (can be anywhere)
             .show(); // show the element
     }, function(){ // trigger the mouseout event
@@ -34,6 +36,7 @@ $(document).ready(function(){
 $(document).ready(function(){
           $(".methods-icon") // select your element (supports CSS selectors)
     .hover(function(){ // trigger the mouseover event
+      if ( $(window).width() > 768 )
         $("#methods-tooltip") // select the element to show (can be anywhere)
             .show(); // show the element
     }, function(){ // trigger the mouseout event
@@ -45,6 +48,7 @@ $(document).ready(function(){
 $(document).ready(function(){
           $(".inspiration-icon") // select your element (supports CSS selectors)
     .hover(function(){ // trigger the mouseover event
+      if ( $(window).width() > 768 )
         $("#inspiration-tooltip") // select the element to show (can be anywhere)
             .show(); // show the element
     }, function(){ // trigger the mouseout event
@@ -56,6 +60,7 @@ $(document).ready(function(){
 $(document).ready(function(){
           $(".hobbies-icon") // select your element (supports CSS selectors)
     .hover(function(){ // trigger the mouseover event
+      if ( $(window).width() > 768 )
         $("#hobbies-tooltip") // select the element to show (can be anywhere)
             .show(); // show the element
     }, function(){ // trigger the mouseout event
@@ -67,6 +72,7 @@ $(document).ready(function(){
 $(document).ready(function(){
           $(".creations-icon") // select your element (supports CSS selectors)
     .hover(function(){ // trigger the mouseover event
+      if ( $(window).width() > 768 )
         $("#creations-tooltip") // select the element to show (can be anywhere)
             .show(); // show the element
     }, function(){ // trigger the mouseout event
