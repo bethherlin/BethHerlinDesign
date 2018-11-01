@@ -1,3 +1,11 @@
+:root {
+	--jet: #353535;
+	--snow: #FCF7F8;
+	--lightgray: #E3E6ED;
+	--lightblue: #90C2E7;
+	--tealblue: #47758B;
+}
+
 body {
 	height: 100%;
 	width: 100%;
@@ -17,7 +25,7 @@ body {
 .subtext {
   font-family: Nunito, sans-serif;
 	font-size: 1em;
-	color: white;
+	color: var(--snow);
   margin-top: 5px;
 }
 
@@ -64,7 +72,7 @@ body {
 
 .fronttop {
   width: 0;
-  border-bottom: 96px solid #191919;
+  border-bottom: 96px solid var(--jet);
   border-left: 168px solid transparent;
   border-right: 168px solid transparent;
 	position: relative;
@@ -72,19 +80,19 @@ body {
 .frontmiddle {
   width: 336px;
   height: 192px;
-  background-color: #191919;
+  background-color: var(--jet);
   padding-top: 1px;
   line-height: 55px;
   text-align: center;
   font-family: 'Economica', sans-serif;
   font-size: 1em;
-  color: #191919;
+  color: var(--jet);
 	margin-top: -48px;
 	position: relative;
 }
 .frontbottom {
   width: 0;
-  border-top: 96px solid #191919;
+  border-top: 96px solid var(--jet);
   border-left: 168px solid transparent;
   border-right: 169px solid transparent;
 }
@@ -104,11 +112,11 @@ body {
 
 .indexnav a {
 	text-decoration: none;
-	color: white;
+	color: var(--lightblue);
 }
 
 .hexagon h3:hover {
-	color: #FACF00;
+	color:  var(--lightblue);
 }
 
 .hexagon {
@@ -127,10 +135,10 @@ body {
 	height: 35px;
 }
 .nav-icon:hover .nav-path {
-	fill: #FACF00;
+	fill: var(--lightblue);
 }
 .nav-path {
-	fill: #FFFFFF;
+	fill: var(--snow);
 }
 
 #toptarget {
@@ -176,7 +184,7 @@ body {
 .nav-tooltip {
 	height: 30px;
 	width: 100px;
-	background-color: #191919;
+	background-color: var(--jet);
 	position: relative;
 	border-radius: 4px;
 	display: none;
@@ -185,7 +193,7 @@ body {
 .nav-tooltip p {
 	padding-top: 5px;
 	font-size: 1em;
-	color: white;
+	color: var(--snow);
 	text-align: center;
 	font-family: "Nunito", sans-serif;
 }
@@ -243,18 +251,18 @@ body {
 }
 .backtop {
   width: 0;
-  border-bottom: 28px solid #191919;
+  border-bottom: 28px solid #353535;
   border-left: 48px solid transparent;
   border-right: 48px solid transparent;
 }
 .backmiddle {
   width: 96px;
   height: 55px;
-  background-color: #191919;
+  background-color: #353535;
 }
 .backbottom {
   width: 0;
-  border-top: 28px solid #191919;
+  border-top: 28px solid #353535;
   border-left: 48px solid transparent;
   border-right: 48px solid transparent;
 }
@@ -263,7 +271,7 @@ body {
 .navblock h2 {
 	font-family: Economica, sans-serif;
 	font-size: 1em;
-	color:#191919;
+	color:#353535;
 	text-align: center;
 	text-transform: uppercase;
 
@@ -279,9 +287,6 @@ body {
     .headblock {
       padding-left: 9%;
     }
-		/* .nav-tooltip {
-			display: none !important;
-		} */
   }
 	@media (max-width: 479px) {
 
@@ -344,7 +349,7 @@ body {
 /* FOOTER ------------------------------------------------*/
 
 #footer {
-  background-color:#191919;
+  background-color:var(--jet);
   height:50px;
   min-width:100%;
   position:fixed;
@@ -358,7 +363,7 @@ body {
   font-family: 'Economica', sans-serif;
   text-transform: uppercase;
   font-size:1em;
-  color:#FFFFFF;
+  color:var(--snow);
   position:relative;
   display: inline-block;
   text-decoration: none;
@@ -413,7 +418,7 @@ body {
   text-align: center;
   font-family: 'Economica', sans-serif;
   font-size: 1em;
-  color: #191919;
+  color: var(--jet);
 	margin: 0;
 	position: relative;
 }
@@ -444,29 +449,29 @@ body {
   font-family: Economica, sans-serif;
   font-size: 1.5em;
   text-transform: uppercase;
-  color:#191919;
+  color: var(--jet);
 }
 .white_content p {
   font-family: Nunito, sans-serif;
   font-size: 1em;
-  color:#191919;
+  color:var(--jet);
 	line-height: 19px;
 }
 .white_content a {
   text-decoration: none;
-  color: gray;
+  color: var(--tealblue);
 	font-size: 1em;
 	font-family: Nunito, sans-serif;
 	display: block;
 }
 .white_content a:hover {
-  color:#FACF00;
+  color: var(--lightblue);
 }
 }
 
 @media (max-width: 768px) {
   .white_content {
-    width:300px;
+    width: 300px;
   }
 }
 
@@ -481,13 +486,17 @@ body {
 
 /* Close 'x'----------------------*/
 
-  .close-btn {
-		margin-top: 10px;
-		margin: auto;
-    font-size: 1em;
-    font-family: Nunito, sans-serif;
-    color: gray;
-    text-decoration: none;
+.close-btn {
+	margin-top: 10px;
+	margin: auto;
+  font-size: 1em;
+  font-family: Nunito, sans-serif;
+  color: var(--tealblue);
+  text-decoration: none;
+}
+
+.close-btn:hover {
+	color: var(--lightblue);
 }
 
 

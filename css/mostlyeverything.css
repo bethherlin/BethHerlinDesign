@@ -1,3 +1,11 @@
+:root {
+	--jet: #353535;
+	--snow: #FCF7F8;
+	--lightgray: #E3E6ED;
+	--lightblue: #90C2E7;
+	--tealblue: #47758B;
+}
+
 body {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -10,7 +18,7 @@ body {
 /* NAVBAR
 -------------------------------------------------- */
 .navbar-default {
-	background-color: #191919;
+	background-color: var(--jet);
 	border:0px;
 }
 
@@ -41,37 +49,37 @@ body {
 .navbar-default .navbar-nav>li>a {
 	font-family: 'Economica', sans-serif;
 	text-transform: uppercase;
-	color:#ffffff;
+	color:var(--snow);
 }
 
 .navbar-default .navbar-nav>li>a:hover,
 .navbar-default .navbar-nav>li>a:focus {
 	font-family: 'Economica', sans-serif;
 	text-transform: uppercase;
-	color:#FACF00;
+	color:var(--lightblue);
 }
 
 .navbar-default .navbar-nav>.active > a,
 .navbar-default .navbar-nav>.active > a:hover,
 .navbar-default .navbar-nav>.active > a:focus {
-	color:#191919;
-	background-color:#FACF00;
+	color:var(--jet);
+	background-color:var(--lightblue);
 }
 
 .dropdown-menu {
 	border: 0px;
 	font-family: 'Economica', sans-serif;
-	background-color: #191919;
+	background-color: var(--jet);
 }
 
 .dropdown-menu li {
 	color: #D9D9D9;
 	font-family: 'Economica', sans-serif;
-	background-color: #191919;
+	background-color: var(--jet);
 }
 
 .dropdown-menu li a {
-	color: #ffffff;
+	color: var(--snow);
 	text-transform: uppercase;
 }
 
@@ -86,7 +94,7 @@ body {
 
 		/* Active state gets a caret at the bottom */
 		/* .nav.navbar-nav .active {
-      		color: #FACF00;
+      		color: var(--lightblue);
 	    }
 	    .nav.navbar-nav .active:after {
 	      position: absolute;
@@ -122,7 +130,7 @@ body {
 }
 
 #storytitle {
-	color:#191919;
+	color:var(--jet);
 	font-family: 'Economica', sans-serif;
 	font-size: 1.5em;
 	text-transform: uppercase;
@@ -139,7 +147,7 @@ body {
 
 
 .skills .skillmap h2 {
-	color: white;
+	color: var(--snow);
 	font-family: 'Economica', sans-serif;
 	font-size: 1em;
 	font-weight: lighter;
@@ -150,7 +158,7 @@ body {
 
 .skills .skillmap p {
 	display: none;
-	color: #191919;
+	color: var(--jet);
 	font-family: 'Nunito';
 	font-size: 1em;
 	text-align: left;
@@ -171,8 +179,8 @@ body {
 .skills #illustration,
 .skills #production,
 .skills #infoarch {
-	background-color: #191919;
-	border:1.5px solid white;
+	background-color: var(--jet);
+	border:1.5px solid var(--snow);
 }
 
 /*.skills #uxdesign:hover,
@@ -186,7 +194,7 @@ body {
 .skills #usabilitytesting:hover,
 .skills #productdesign:hover,
 .skills #productdev:hover {
-	background: #FACF00;
+	background: var(--lightblue);
 }*/
 
 .skills #productdev:hover {
@@ -261,7 +269,7 @@ body {
 .skills #userresearch:hover h2,
 .skills #productdesign:hover h2,
 .skills #productdev:hover h2 {
-	color:white;
+	color:var(--snow);
 }
 
 /* .skills #uxdesign {
@@ -345,7 +353,7 @@ body {
 }
 .skills .skilldescription h2 {
 	padding-top: 0;
-	color:#191919;
+	color:var(--jet);
 	font-family: 'Economica', sans-serif;
 	font-size: 1.5em;
 	text-transform: uppercase;
@@ -354,7 +362,7 @@ body {
 	font-family: 'Nunito', sans-serif;
 	font-size: 1em;
 	font-weight: lighter;
-	color: #191919;
+	color: var(--jet);
 	display: none;
   height: 100px;
 }
@@ -420,13 +428,13 @@ body {
 	text-align: center;
 	font-family: 'Economica', sans-serif;
 	font-size: 1.5em;
-	color: #191919;
+	color: var(--jet);
 	text-decoration: none;
 }
 
 #nextbutton:hover {
 	text-shadow: 0px 1px 1px rgba(25, 25, 25, 0.2);
-	color: #FACF00;
+	color: var(--lightblue);
 }
 
 .nextbuttoncontain {
@@ -442,10 +450,7 @@ body {
 .jumbotron {
 	margin-bottom: 30px;
 	padding:20px;
-	background: -webkit-linear-gradient(#F2F2F2, #D9D9D9); /* For Safari 5.1 to 6.0 */
-  	background: -o-linear-gradient(#F2F2F2, #D9D9D9); /* For Opera 11.1 to 12.0 */
-  	background: -moz-linear-gradient(#F2F2F2, #D9D9D9); /* For Firefox 3.6 to 15 */
-  	background: linear-gradient(#F2F2F2, #D9D9D9); /* Standard syntax */
+	background: var(--lightgray);
 }
 
 .jumbotron h1 {
@@ -529,7 +534,7 @@ body {
 }
 
 .btn-default:hover {
-	background-color: #FACF00;
+	background-color: var(--lightblue);
 }
 
 /*CREATIONS PAGE-----------------------------------------*/
@@ -685,7 +690,7 @@ body {
   .creations #design-system:hover h2,
   .creations #digital-healthcare:hover h2,
   .creations #careplan-startup:hover h2 {
-		color:#FACF00;
+		color:var(--lightblue);
 		text-shadow: 0px 1px 1px rgba(25, 25, 25, 0.6);;
 	}
 
@@ -947,10 +952,10 @@ body {
   	font-weight: bolder;
   	font-size: 2em;
   	text-transform: uppercase;
-  	color:white;
+  	color:var(--snow);
   	text-align: center;
   	padding-top: 110px;
-  	text-shadow: 0px 1px 1px rgba(25, 25, 25, 0.4);
+  	text-shadow: 0px 1px 2px rgba(25, 25, 25, 0.6);
     margin: 0;
 }
 
@@ -1003,7 +1008,7 @@ body {
 		opacity: 1;
 	}
 	.hobbies #photography:hover h2 {
-		color:#FACF00;
+		color:var(--lightblue);
 	}
 
 .hobbies #drawing {
@@ -1021,7 +1026,7 @@ body {
 			opacity: 1;
 		}
 		.hobbies #drawing:hover h2 {
-			color:#FACF00;
+			color:var(--lightblue);
 		}
 
 .hobbies #furniture {
@@ -1039,7 +1044,7 @@ body {
 			opacity:1;
 		}
 		.hobbies #furniture:hover h2 {
-			color:#FACF00;
+			color:var(--lightblue);
 		}
 
 
@@ -1058,14 +1063,14 @@ body {
 			opacity: 1;
 		}
 		.hobbies #cooking:hover h2 {
-			color:#FACF00;
+			color:var(--lightblue);
 		}
 
 
 /* FOOTER ------------------------------------------------*/
 
 #footer {
-	background-color:#191919;
+	background-color:var(--jet);
 	height:50px;
 	min-width:100%;
 	text-align: center;
@@ -1077,7 +1082,7 @@ body {
 	font-family: 'Economica', sans-serif;
 	text-transform: uppercase;
 	font-size:1em;
-	color:#FFFFFF;
+	color:var(--snow);
 	position:relative;
 	padding-top:15px;
 	display: inline-block;
@@ -1085,7 +1090,7 @@ body {
 }
 
 #footer p:hover {
-	color:#FACF00;
+	color:var(--lightblue);
 }
 
 
@@ -1113,10 +1118,10 @@ body {
         max-width: 450px;
         min-width: 190px;
         height: 300px;
-        background-color: background: -webkit-linear-gradient(#f2f2f2, white); /* For Safari 5.1 to 6.0 */
-        background: -o-linear-gradient(#f2f2f2, white); /* For Opera 11.1 to 12.0 */
-        background: -moz-linear-gradient(#f2f2f2, white); /* For Firefox 3.6 to 15 */
-        background: linear-gradient(#f2f2f2, white); /* Standard syntax */;
+        background-color: background: -webkit-linear-gradient(#f2f2f2, var(--snow)); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(#f2f2f2, var(--snow)); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(#f2f2f2, var(--snow)); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(#f2f2f2, var(--snow)); /* Standard syntax */;
         border-radius: 5px;
         box-shadow: 0px 2px 2px rgba(25, 25, 25, 0.8);
         z-index:1002;
@@ -1139,19 +1144,19 @@ body {
       font-family: Economica, sans-serif;
       font-size: 2em;
       text-transform: uppercase;
-      color:#191919;
+      color:var(--jet);
     }
     .white_content p {
       font-family: Nunito, sans-serif;
       font-size: 1em;
-      color:#191919;
+      color:var(--jet);
     }
     .white_content p a {
       text-decoration: none;
-      color:gray;
+      color:var(--tealblue);
     }
     .white_content p a:hover {
-      color:#FACF00;
+      color:var(--lightblue);
     }
   }
 
@@ -1188,7 +1193,7 @@ body {
     font-size: 15px;
     font-family: Nunito, sans-serif;
     font-weight: bold;
-    color: gray;
+    color: var(--tealblue);
     text-decoration: none;
 }
 
